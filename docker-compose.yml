@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  # smtp:
+  #   image: schickling/mailcatcher
+  #   container_name: 'smtp'
+  #   ports:
+  #   - "1080:1080"
+  #   - "1025:1025"
+  php:
+    container_name: 'php'
+    build: ./php
+    ports:
+      - '80:80'
+    volumes:
+      # PHPのデバッグ用URL
+      # - ./php/html:/var/www/html
+      - ./:/var/www/html
+      - ./php/conf/php.ini:/usr/local/etc/php/php.ini
+      - ./php/log/xdebug:/var/log/xdebug
+      - ./php/ssmtp.conf:/etc/ssmtp/ssmtp.conf
+  sqlserver:
+    image: microsoft/mssql-server-linux:2017-latest
+    container_name: sqlserver
+    hostname: sqlserver
+    ports:
+      - 1433:1433
+    volumes: 
+      - ./sqlserver/init-data:/init-data
+      - ./sqlserver/start-up.sh:/start-up.sh
+      - mssql-db:/var/opt/mssql
+    env_file: 
+      - ./sqlserver/common.env
+    command: "sh -c '/start-up.sh & /opt/mssql/bin/sqlservr;'"
+    
+volumes: 
+  mssql-db:
+    driver: local
+  

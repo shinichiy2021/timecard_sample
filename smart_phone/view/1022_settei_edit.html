@@ -1,0 +1,143 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/08/04  会話用アイコンの画像アップロードを追加しました -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>インフォメーション</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1022">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>個人設定の修正</h2>
+                    <p id="update" class="waves-effect waves-teal btn-flat">更新</p>
+                </div>
+            </div>
+            <div class="all">
+                <table class="tbl">
+                    <tr class="">
+                        <th class="notify">会話用アイコン</th>
+                        <td class="notify" id="chatIcon">
+                            <img id="nowIcon" src="" onerror=this.src="../../common/photo/noImage.png">
+                            <label class="photo">
+                                <i id="camera" class="material-icons">camera_alt</i>
+                                <input id="photo" type="file" value="写真を開く" class="but" accept="image/*">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="pString">
+                            <p>選択してください</p>
+                        </th>
+                        <td class="iconTable">
+                            <input class="iconList" id="green" src="../../common/photo/buddyGreen.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="pink" src="../../common/photo/buddyPink.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="yellow" src="../../common/photo/buddyYellow.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="blue" src="../../common/photo/buddyBlue.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="boy" src="../../common/photo/boy.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="boy2" src="../../common/photo/boy2.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="girl" src="../../common/photo/girl.png" type="image">
+                        </td>
+                        <td class="iconTable">
+                            <input class="iconList" id="girl2" src="../../common/photo/girl2.png" type="image">
+                        </td>
+                    </tr>
+                    <tr pushTime>
+                        <th class="notify">通知を許可する時間帯</th>
+                        <td class="notify push">
+                            <select id="notifyTime" class="cmb">
+                                <option value="0">勤務時間内</option>
+                                <option value="1">終日許可</option>
+                                <option value="2">夜間無し</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr pushRestTime>
+                        <th class="notify">休日通知の許可設定</th>
+                        <td class="notify push">
+                            <select id="holiday" class="cmb">
+                                <option value="0">許可しない</option>
+                                <option value="1">許可する</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="emailSet">
+                        <th class="notify">メールアドレスを変更する</th>
+                        <td class="notify" id="mailAdd">
+                            <img src="../img/icon_mail.png" value="パスワード" id="imgPass">
+                            <a id="mail" href="javascript:void(0);"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="notify">パスワードを変更する</th>
+                        <td class="password">
+                            <img src="../img/icon_password.png" value="パスワード" id="imgPass">
+                            <a id="passChange" href="javascript:void(0);">＊＊＊＊＊＊＊＊＊＊</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <section id="scrollBottom"></section>
+            <!-- モーダル -->
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class="info-content">
+                    <p id="infomation">
+                        <span id="modalTitle">タイトル</span>
+                    </p>
+                </div>
+                <div id="info-in">
+                    <!-- タイトル-->
+                    <input id="newAddress" type="email" placeholder="新しいメールアドレスを入力してください" class="email1 input-field input">
+                    <input id="newAddresskakunin" type="email" placeholder="メールアドレスを再入力してください" class="email2 input input-field">
+                    <input id="passWord" type="password" placeholder="現在のパスワードを入力してください" maxlength="20" class="old-password input input-field">
+                    <input id="newPass" type="password" placeholder="新しいパスワードを入力してください" maxlength="20" class="new-password1 input input-field">
+                    <input id="kakunin" type="password" placeholder="パスワードを再入力してください" maxlength="20" class="new-password2 input input-field">
+                    <p class="appidforget">
+                        <a id="lostLink" href="javascript:void(0);">※登録情報を忘れた方</a>
+                    </p>
+                    <canvas id="mycanvas">Canvasに対応しているブラウザを使用して下さい。</canvas>
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-blue-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a id="close" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">キャンセル</a>
+                    <a id="entry" href="javascript:void(0);" class="modal-action waves-effect waves-green btn-flat">保存する</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

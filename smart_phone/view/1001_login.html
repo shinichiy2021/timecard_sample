@@ -1,0 +1,162 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2018/09/01 yamazaki SPA用のindex.htmlを作成しました。 -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GAIA（ガイア）</title>
+    <meta charset="UTF-8">
+    <!-- スマホ画面メタタグ -->
+    <meta name="viewport" content="viewport-fit=cover, width=device-width,initial-scale=1, user-scalable=no">
+    <!-- アドレスバー等のブラウザのUIを非表示 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- default（Safariと同じ） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- ホーム画面に表示されるアプリ名 -->
+    <meta name="apple-mobile-web-app-title" content="TAP10">
+    <!-- ホーム画面に表示されるアプリアイコン -->
+    <link rel="apple-touch-icon" href="../pwa/icons/icon-152x152.png">
+    <!-- ウェブアプリマニフェストの読み込み -->
+    <link rel="manifest" href="../pwa/manifest.json">
+    <!-- ServiceWorkerの登録 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            console.log('Found serviceWorker');
+            navigator.serviceWorker.register('../pwa/sw.js')
+                .then((reg) => {
+                    console.log('Service Worker Registered', reg);
+                });
+        } else {
+            console.log('Not Found serviceWorker');
+        }
+    </script>
+    <link href="../../common/css/materialize.css" rel="stylesheet">
+    <link href="../../common/iconfont/material-icons.css" rel="stylesheet">
+    <link href="../../common/css/cropper.css" rel="stylesheet">
+    <link href="../css/spa.css" rel="stylesheet" type="text/css">
+    <link href="../css/common_iPhone.css" rel="stylesheet" type="text/css">
+    <link href="../css/1001_1_login.css" rel="stylesheet" type="text/css">
+    <link href="../css/1001_2_start_entry.css" rel="stylesheet" type="text/css">
+    <link href="../css/1002_account_request.css" rel="stylesheet" type="text/css">
+    <link href="../css/1004_menu.css" rel="stylesheet" type="text/css">
+    <link href="../css/1006_oshirase.css" rel="stylesheet" type="text/css">
+    <link href="../css/1007_oshirase_edit.css" rel="stylesheet" type="text/css">
+    <link href="../css/1008_oshirase_midoku.css" rel="stylesheet" type="text/css">
+    <link href="../css/1009_sinsei.css" rel="stylesheet" type="text/css">
+    <link href="../css/1010_sinsei_detail.css" rel="stylesheet" type="text/css">
+    <link href="../css/1011_sinsei_entry.css" rel="stylesheet" type="text/css">
+    <link href="../css/1012_kintai_edit.css" rel="stylesheet" type="text/css">
+    <link href="../css/1013_todo_list.css" rel="stylesheet" type="text/css">
+    <link href="../css/1014_todo.css" rel="stylesheet" type="text/css">
+    <link href="../css/1015_todo_edit.css" rel="stylesheet" type="text/css">
+    <link href="../css/1016_chat_group.css" rel="stylesheet" type="text/css">
+    <link href="../css/1017_chat_log.css" rel="stylesheet" type="text/css">
+    <link href="../css/1018_chat_group_edit.css" rel="stylesheet" type="text/css">
+    <link href="../css/1019_member.css" rel="stylesheet" type="text/css">
+    <link href="../css/1021_settei_iPhone.css" rel="stylesheet" type="text/css">
+    <link href="../css/1022_settei_edit_iPhone.css" rel="stylesheet" type="text/css">
+    <link href="../css/1024_fax_details.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <article class="spa"></article>
+    <div class="loader-wrap">
+        <div class="spa-loader">Loading...</div>
+    </div>
+    <!-- JavaScriptファイルリンク -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+    <script src="//maps.googleapis.com/maps/api/js?&key=AIzaSyAsbO4rx9PcSoxh2j5EK_F-XR4aIFMKRas"></script>
+    <script src="../../common/js/materialize.js"></script>
+    <script src="../../common/js/jquery.cookie.js"></script>
+    <script src="../../common/js/cropper.js"></script>
+    <script src="../../common/js/tiff.js"></script>
+    <script src="../../common/js/underscore.js"></script>
+    <script src="../js/flowtype.js"></script>
+    <script src="../../common/js/Class/classDatabase.js"></script>
+    <script src="../../common/js/Class/classMaster.js"></script>
+    <script src="../../common/js/Class/classMail.js"></script>
+    <script src="../../common/js/Class/classView.js"></script>
+    <script src="../../common/js/Class/classException.js"></script>
+    <script src="../../common/js/Class/classTemplate.js"></script>
+    <script src="../../common/js/Class/getParameter.js"></script>
+    <script src="../../common/js/smart_phone/init.js"></script>
+    <script src="../../common/js/smart_phone/func.js"></script>
+    <script src="../../common/js/smart_phone/header.js"></script>
+    <script src="../js/spa.js"></script>
+    <script src="../js/1001_1_login/init.js"></script>
+    <script src="../js/1001_1_login/func.js"></script>
+    <script src="../js/1001_1_login/main.js"></script>
+    <script src="../js/1001_2_start_entry/init.js"></script>
+    <script src="../js/1001_2_start_entry/func.js"></script>
+    <script src="../js/1001_2_start_entry/main.js"></script>
+    <script src="../js/1002_account_request/init.js"></script>
+    <script src="../js/1002_account_request/func.js"></script>
+    <script src="../js/1002_account_request/main.js"></script>
+    <script src="../js/1004_menu/init.js"></script>
+    <script src="../js/1004_menu/func.js"></script>
+    <script src="../js/1004_menu/main.js"></script>
+    <script src="../js/1004_menu/1005_oshirase_popup.js"></script>
+    <script src="../js/1006_oshirase/init.js"></script>
+    <script src="../js/1006_oshirase/func.js"></script>
+    <script src="../js/1006_oshirase/main.js"></script>
+    <script src="../js/1007_oshirase_edit/init.js"></script>
+    <script src="../js/1007_oshirase_edit/func.js"></script>
+    <script src="../js/1007_oshirase_edit/main.js"></script>
+    <script src="../js/1008_oshirase_midoku/init.js"></script>
+    <script src="../js/1008_oshirase_midoku/func.js"></script>
+    <script src="../js/1008_oshirase_midoku/main.js"></script>
+    <script src="../js/1009_sinsei/init.js"></script>
+    <script src="../js/1009_sinsei/func.js"></script>
+    <script src="../js/1009_sinsei/main.js"></script>
+    <script src="../js/1010_sinsei_detail/init.js"></script>
+    <script src="../js/1010_sinsei_detail/func.js"></script>
+    <script src="../js/1010_sinsei_detail/main.js"></script>
+    <script src="../js/1011_sinsei_entry/init.js"></script>
+    <script src="../js/1011_sinsei_entry/entry.js"></script>
+    <script src="../js/1011_sinsei_entry/func.js"></script>
+    <script src="../js/1011_sinsei_entry/main.js"></script>
+    <script src="../js/1012_kintai/init.js"></script>
+    <script src="../js/1012_kintai/func.js"></script>
+    <script src="../js/1012_kintai/modal.js"></script>
+    <script src="../js/1012_kintai/main.js"></script>
+    <script src="../js/1013_todo_list/init.js"></script>
+    <script src="../js/1013_todo_list/func.js"></script>
+    <script src="../js/1013_todo_list/main.js"></script>
+    <script src="../js/1014_todo/init.js"></script>
+    <script src="../js/1014_todo/func.js"></script>
+    <script src="../js/1014_todo/main.js"></script>
+    <script src="../js/1014_todo/popup.js"></script>
+    <script src="../js/1015_todo_edit/init.js"></script>
+    <script src="../js/1015_todo_edit/func.js"></script>
+    <script src="../js/1015_todo_edit/main.js"></script>
+    <script src="../js/1016_chat_group/init.js"></script>
+    <script src="../js/1016_chat_group/func.js"></script>
+    <script src="../js/1016_chat_group/main.js"></script>
+    <script src="../js/1017_chat_log/init.js"></script>
+    <script src="../js/1017_chat_log/func.js"></script>
+    <script src="../js/1017_chat_log/main.js"></script>
+    <script src="../js/1017_chat_log/popup.js"></script>
+    <script src="../js/1018_chat_group_edit/init.js"></script>
+    <script src="../js/1018_chat_group_edit/func.js"></script>
+    <script src="../js/1018_chat_group_edit/main.js"></script>
+    <script src="../js/1018_chat_group_edit/popup.js"></script>
+    <script src="../js/1019_member/init.js"></script>
+    <script src="../js/1019_member/func.js"></script>
+    <script src="../js/1019_member/main.js"></script>
+    <script src="../js/1019_member/1020_member_new.js"></script>
+    <script src="../js/1021_settei/init.js"></script>
+    <script src="../js/1021_settei/func.js"></script>
+    <script src="../js/1021_settei/main.js"></script>
+    <script src="../js/1022_settei_edit/init.js"></script>
+    <script src="../js/1022_settei_edit/func.js"></script>
+    <script src="../js/1022_settei_edit/main.js"></script>
+    <script src="../js/1022_settei_edit/1023_settei_popup.js"></script>
+    <script src="../js/1024_fax_details/init.js"></script>
+    <script src="../js/1024_fax_details/func.js"></script>
+    <script src="../js/1024_fax_details/main.js"></script>
+    <script src="../js/1024_fax_details/popup.js"></script>
+</body>
+</html>

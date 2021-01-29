@@ -1,0 +1,116 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/08/09 yamazaki ヘッダーのレイアウトを修正しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>タイムカード</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1012">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>タイムカード</h2>
+                    <p id="new" class="waves-effect waves-teal btn-flat">届けを出す</p>
+                </div>
+            </div>
+            <!-- ヘッダー -->
+            <div class="all">
+                <section class="phonediv p_sec sect">
+                    <table class="phonetbl_11 p_tbl">
+                        <tr>
+                            <th class="workday_th label pink_th_pc pink_th_Phone rightborder">勤務日数</th>
+                            <th class="workSum_th label blue_th_pc blue_th_Phone leftborder rightborder">勤務時間合計</th>
+                            <td class="label rightborder" id="kinmuDay"></td>
+                            <td class="label leftborder rightborder" id="under"></td>
+                        </tr>
+                    </table>
+                    <table id="total" class="phonetbl_11">
+                        <tr>
+                            <th class="o_yellow">所定内時間</th>
+                            <th class="g_blue">所定外時間</th>
+                            <th class="houtei">法定休日時間</th>
+                            <td id="overTime" class="labelSmall"></td>
+                            <td id="Hwork" class="labelSmall"></td>
+                            <td id="outTime" class="labelSmall"></td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="phonetbl_11">
+                    <table class="float_tbl">
+                        <tr>
+                            <td class="leftbut">
+                                <input id="Prev" type="button" class="rightbut2">
+                            </td>
+                            <td class="ymtxt" id="ym"></td>
+                            <td class="rightbut">
+                                <input id="mNext" type="button" class="leftbut2">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="phonetbl_1">
+                    <table id="kintai">
+                        <thead>
+                            <tr class="kou">
+                                <!--スマホ用のタグです -->
+                                <th class="th1">打刻日</th>
+                                <th class="th2">出勤</th>
+                                <th class="th3">退勤</th>
+                                <th class="th4">
+                                    休憩
+                                    <br>(分)
+                                </th>
+                                <th class="th5">
+                                    所定
+                                    <br>内
+                                </th>
+                                <th class="th6">
+                                    所定
+                                    <br>外
+                                </th>
+                                <th class="th7">
+                                    勤務
+                                    <br>時間
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="list" class="dynamic-dom"></tbody>
+                    </table>
+                </section>
+                <section id="description">
+                    <p>届出日には背景色が付きます（タップで詳細表示）</p>
+                    <p id="sinseiColor">承認待ち</p>
+                    <p id="sinseiColor1">承認済み</p>
+                    <p id="sinseiColor2">不承認</p>
+                </section>
+            </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+                <!-- タイトル -->
+                <div class="info-content">
+                    <p id="infomation">
+                        <span id="sinseiTitle">届出の詳細</span>
+                    </p>
+                    <a href="javascript:void(0);" id="close" class="modal-action modal-close waves-effect waves-green btn-flat ">×</a>
+                </div>
+                <div id="info-in">
+                    <section class="list" id="listTable"></section>
+                </div>
+                <div class="modal-footer">
+                    <!-- <a href="javascript:void(0);" id="close" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a> -->
+                    <a href="javascript:void(0);" id="del" class="modal-action modal-close waves-effect waves-green btn-flat ">取り下げる</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

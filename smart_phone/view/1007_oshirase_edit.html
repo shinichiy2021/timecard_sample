@@ -1,0 +1,57 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--  -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>お知らせの追加</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1007">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>お知らせの追加</h2>
+                    <p id="delete" class="waves-effect waves-teal btn-flat">削除</p>
+                    <p id="new" class="waves-effect waves-teal btn-flat">更新</p>
+                </div>
+            </div>
+            <div class="all">
+                <div id="content">
+                    <section id="select">
+                        <textarea id="subTitle" class="lng materialize-textarea" name="subTitle" placeholder="タイトルを入力する..." rows="4" cols="40"></textarea>
+                        <section id="kubun">
+                            <h1>情報区分</h1>
+                            <select id="title" class="sub_title" name="title">
+                                <option selected value="選択してください">選択する</option>
+                                <option value="通常情報">通常情報</option>
+                                <option value="緊急情報">緊急情報</option>
+                            </select>
+                        </section>
+                        <section id="kikan">
+                            <h1>掲載期限</h1>
+                            <input id="ym" class="ympicker" type="date">
+                        </section>
+                        <section id="sakusei">
+                            <h1>作成者</h1>
+                            <label id="name" class="name"></label>
+                        </section>
+                        <section id="text">
+                            <textarea id="msgText" name="freeans" rows="10" cols="40" placeholder="詳細を入力する..."></textarea>
+                        </section>
+                        <input id="msgNo" type="hidden">
+                    </section>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

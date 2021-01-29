@@ -1,0 +1,81 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/03 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>やることリスト</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1013">
+            <div class="header">
+                <div class="mainTitle">
+                    <ul id="slide-out" class="side-nav">
+                        <li class="item">
+                            <a id="newTodo" href="javascript:void(0);">
+                            <i id="newTodoIcon" class="material-icons">fiber_new</i>
+                            新着情報
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a id="todo" class="menuList" href="javascript:void(0);">
+                            <img src="../img/doIcon.png" id="todoIcon" class="refineIcon">
+                            お願いされたこと
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a id="request" href="javascript:void(0);">
+                            <img src="../img/toIcon.png" id="requestIcon" class="refineIcon">
+                            お願いしたこと
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a id="another" href="javascript:void(0);">
+                            <img src="../img/othersIcon.png" id="anotherTodoIcon" class="refineIcon">
+                            自分以外がお願いしたこと
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a id="myTodo" href="javascript:void(0);">
+                            <i id="myTodoIcon" class="material-icons">format_list_bulleted</i>
+                            自分のメモ
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a id="reset" href="javascript:void(0);">
+                            絞り込みを解除
+                        </a>
+                        </li>
+                        <li><span id="kugiri">下の条件で並べ替え</span></li>
+                        <li class="item"><a id="bookmark">☆マーク</a></li>
+                        <li class="item"><a id="kigen">期限順</a></li>
+                        <li class="item"><a id="goju">50音順</a></li>
+                    </ul>
+                    <!-- 2018/11/27 yamazaki 戻るボタンを追加しました（メニューへ） -->
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <a href="javascript:void(0);" data-activates="slide-out" class="button-collapse">
+                    <i id="sideNav" class="material-icons">menu</i>
+                </a>
+                    <h2>やることリスト</h2>
+                </div>
+            </div>
+            <div class="all">
+                <section class="input">
+                    <textarea wrap="off" id="newText" class="inputtext" placeholder="リストを新規作成"></textarea>
+                    <i id="new" class="material-icons">add</i>
+                </section>
+                <section class="dynamic-dom list" id="myTodoList"></section>
+                <input type="button" value="完了済みを表示する" id="switchBtn">
+                <section class="dynamic-dom list" id="myCompList"></section>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

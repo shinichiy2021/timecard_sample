@@ -1,0 +1,272 @@
+.view1019 .mainTitle {
+    background-color: #99CCFF;
+}
+
+.syozoku_th {
+    font-size: 6.5vw;
+    border-radius: 3vw 3vw 0 0;
+    width: 38%;
+    font-weight: bold;
+    margin-top: 3vw;
+    text-align: left;
+}
+
+.view1019 .syotd {
+    margin-top: 3vw;
+}
+
+.view1019 #staffName {
+    appearance: button;
+    line-height: 6.5vw;
+    font-size: 6.5vw;
+    text-align: left;
+    color: #333366;
+    border-color: #003366;
+    background-color: #ffffff;
+    padding-left: 2vw;
+    padding-right: 3vw;
+    width: 92%;
+}
+
+.view1019 .kubun_th {
+    font-size: 6.5vw;
+    border-radius: 3vw 3vw 0 0;
+    width: 38%;
+    font-weight: bold;
+    margin-top: 3vw;
+    text-align: left;
+}
+
+.view1019 #modal-bg {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.view1019 #modal-content {
+    width: 90%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    font-size: 6.5vw;
+    margin: 0 5%;
+    top: 10%;
+    left: 0;
+}
+
+.view1019 .info-content {
+    background-color: #99CCFF;
+    border: 2px solid #99CCFF;
+    text-align: center;
+}
+
+.view1019 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vh 0;
+    font-weight: bold;
+}
+
+.view1019 #info-in {
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10vw;
+}
+
+.view1019 .chkbox {
+    margin: 1vw 0;
+}
+
+.view1019 #regist {
+    margin-right: 3vw;
+}
+
+.view1019 #groupName {
+    background-color: #ffffff;
+    color: black;
+    margin: 0 0 3vw 0;
+    font-size: 6.5vw;
+}
+
+.view1019 table#list {
+    margin: 5vw 0;
+}
+
+.view1019 table#allSerect {
+    width: 95%;
+    margin: 5vw 0;
+}
+
+.view1019 table#modal_allSerect {
+    margin: 3vw 0;
+}
+
+.view1019 #list td .staff {
+    padding: 3vw 3vw;
+    font-size: 6.0vw;
+    color: black;
+    border-radius: 3vw;
+    background: white;
+    line-height: 1.25em;
+}
+
+.view1019 td .staff {
+    padding: 1vw 0 9vw 8vw;
+    font-size: 5.5vw;
+    color: black;
+    border-radius: 3vw;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.view1019 td input#choice {
+    padding: 3%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    font-size: 6.5vw;
+    color: black;
+    border-radius: 3vw;
+    font-weight: bold;
+}
+
+.view1019 td input#modal_choice {
+    padding: 3%;
+    font-size: 6.5vw;
+    color: black;
+    border-radius: 3vw;
+    font-weight: bold;
+}
+
+.view1019 #list .staff_N {
+    width: 82%;
+}
+
+.view1019 #modal_list .staff_N {
+    width: 80%;
+    margin: 0 0 0 5%;
+}
+
+.view1019 #allSerect .sel {
+    width: 70%;
+    margin: 0 0 0 5%;
+    font-size: 6.5vw;
+    line-height: 2em;
+}
+
+.view1019 #modal_allSerect .sel {
+    width: 85%;
+    line-height: 9vh;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.view1019 .yohaku {
+    height: 5vw;
+}
+
+.view1019 #new {
+    font-size: 6.5vw;
+    width: 90%;
+    margin: 5vw 5% 5vw 5%;
+    border-radius: 3vw;
+    background: #99CCFF;
+    -webkit-appearance: none;
+}
+
+.view1019 #modal-content #new {
+    font-size: 6.5vw;
+    background: none;
+    width: 80%;
+    margin: 0 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.view1019 #midasi {
+    font-size: 5.5vw;
+    text-align: center;
+}
+
+.view1019 #modal-content #regist {
+    font-size: 6.5vw;
+    width: 80%;
+    margin: 2vw 10%;
+    font-weight: bold;
+    border-radius: 3vw;
+    background: #99CCFF;
+    -webkit-appearance: none;
+    border-width: 1vw;
+    border-style: outset;
+}
+
+.view1019 .serect {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.view1019 .set {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.view1019 .modal_taiseki {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.view1019 .memberNoneList {
+    text-align: center;
+    font-size: 5.5vw;
+    margin: 21vh 0;
+}
+
+.view1019 .memberNoneAdd {
+    text-align: center;
+    font-size: 4.5vw;
+    margin: 6vh 0;
+}
+
+.view1019 .ck1 {
+    width: 15%;
+}
+
+.view1019 .ck1 input {
+    height: 13.5vw;
+    border-radius: 3vw;
+    margin: 0 19%;
+    font-size: 5vw;
+    -webkit-appearance: none;
+}
+
+.view1019 .ck2 input {
+    height: 9vw;
+    margin: 2vw 0;
+}
+
+.view1019 h2 {
+    background-color: #99CCFF;
+}
+
+.view1019 div.but_div2 {
+    background-color: #99CCFF;
+}
+
+.view1019 #group {
+    padding: 0 3%;
+}
+
+.view1019 #invitation {
+    font-size: 5vw;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3vw;
+    width: 25%;
+}

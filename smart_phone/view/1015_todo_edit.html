@@ -1,0 +1,61 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>やることリスト</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1015">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>やること編集</h2>
+                    <p id="regist" class="waves-effect waves-teal btn-flat">登録</p>
+                    <p id="update" class="waves-effect waves-teal btn-flat">更新</p>
+                    <p id="delete" class="waves-effect waves-teal btn-flat">削除</p>
+                </div>
+            </div>
+            <div class="all">
+                <section class="editArea">
+                    <textarea id="title" class="lng materialize-textarea" name="subTitle" placeholder="やることを入力する..." rows="4" cols="40"></textarea>
+                </section>
+                <section id="memberCheck">
+                    <h1>依頼する</h1>
+                    <p id="iraiArea">
+                        <input type="checkbox" id="irai" value="">
+                        <label for="irai"></label>
+                    </p>
+                </section>
+                <section id="memberArea">
+                    <h1>割り当て人数</h1>
+                    <p id="msg">タップして変更↓</p>
+                    <p id="member"></p>
+                    <input type="image" src="../img/kao.png" value="選択" id="memberSelect" class="but">
+                </section>
+                <section id="editMsg">
+                </section>
+                <section id="ym1Area">
+                    <h1 class="Date">開始日</h1>
+                    <input id="ym1" class="ympicker" type="date">
+                </section>
+                <section id="ym2Area">
+                    <h1 class="kigen">終了日</h1>
+                    <input id="ym2" class="ympicker" type="date">
+                </section>
+                <section class="editArea">
+                    <textarea id="meisai" cols="40" rows="13" maxlength="255" placeholder="詳細を入力する..."></textarea>
+                </section>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

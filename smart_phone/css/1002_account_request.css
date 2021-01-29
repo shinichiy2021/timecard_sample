@@ -1,0 +1,61 @@
+.view1002 {
+    padding: 0 3%;
+}
+
+.view1002 #back {
+    color: #039be5;
+    font-size: 1em;
+    position: relative;
+    width: 100%;
+    padding: 2vw 0;
+}
+
+.view1002 header.login {
+    display: block;
+}
+
+.view1002 h2 {
+    color: #000000a1;
+    font-size: 7vw;
+    width: 100%;
+}
+
+.view1002 tr#kari {
+    font-size: 7vw;
+}
+
+.view1002 tr#kari th {
+    text-align: center;
+}
+
+.view1002 #mail {
+    width: 98%;
+    font-size: 5vw;
+    vertical-align: middle;
+    padding-left: 2%;
+    background: white;
+}
+
+.view1002 input.but {
+    border-radius: 1vw;
+    width: 100%;
+    font-size: 6.5vw;
+    height: 11vw;
+    background-color: white;
+    padding: 0px;
+    border: outset;
+    margin: 1vh 0;
+    color: #fff;
+    background-color: #49a9d4;
+}
+
+.view1002 .table {
+    background-color: #f0f8ff;
+    margin: 5vw 0;
+    padding: 0;
+}
+
+.view1002 hr {
+    margin-bottom: 10vw;
+    width: 100%;
+}

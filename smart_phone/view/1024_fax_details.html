@@ -1,0 +1,56 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。-->
+<!-- 2017/08/09 yamazaki ヘッダーのレイアウトを修正しました。-->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>やることリスト</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1024">
+            <div class="header">
+                <section class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2 id="title">FAX一覧</h2>
+                </section>
+            </div>
+            <div class="all">
+                <section id="faxList" class="dynamic-dom"></section>
+            </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class ="modalHeader">
+                    <p id="modalDate"></p>
+                </div>
+                <div id="info-in">
+                    <canvas id="mycanvas">Canvasに対応しているブラウザを使用して下さい。</canvas>
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-blue-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" id="ftBtn">
+                    <input type="image" id="rotate" class="btn-flat " src="../img/rerate1.png" alt="回転する">
+                    <a id="cancel" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

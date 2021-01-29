@@ -1,0 +1,80 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/08/09 yamazaki ヘッダーのレイアウトを修正しました。 -->
+<!-- 2017/08/18 yamazaki 欠勤届けのみ表示するようにしました。（ver.2.1.1） -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>申請登録</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1011">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2 id="todokedeTitle">新規届出</h2>
+                </div>
+            </div>
+            <!-- ヘッダー -->
+            <div class="all">
+                <section class="sinseiKomoku">
+                    <select id="sinseiKomoku">
+                        <!-- 2017/08/18 yamazaki 欠勤届けのみ表示するようにしました。（ver.2.1.1） -->
+                        <option value="sentakuShitekudasai" selected="">届出名を選んでください</option>
+                        <option value="0">休暇届け</option>
+                        <option value="1">早退届け</option>
+                        <option value="2">遅刻届け</option>
+                        <option value="3">時間外勤務届け</option>
+                        <option value="4">休日出勤届け</option>
+                        <!-- <option value="5">打刻修正依頼</option> -->
+                        <option value="99">その他届け</option>
+                    </select>
+                </section>
+                <section id="sinseiNaiyo" class="dynamic-dom"></section>
+                <section id="errorArea"></section>
+                <section id="sinseiKomokuHide">
+                    <section class="sinseiDate">
+                        <section id="dateFrom">
+                            <h1>期間</h1>
+                            <input id="sinseiFrom" type="date" value="">
+                            <p>から</p>
+                        </section>
+                        <section id="dateTo">
+                            <h1>&nbsp;</h1>
+                            <input id="sinseiTo" type="date" value="">
+                            <p>まで</p>
+                        </section>
+                    </section>
+                    <section id="dakokuSinseiDate">
+                    </section>
+                    <section class="shoninSha">
+                        <h1 class="Date">確認する人</h1>
+                        <select id="shoninSha" class="shoninSha">
+                            <option value="sentakuShitekudasai">選択してください</option>
+                        </select>
+                    </section>
+                    <section class="shinseiJiyu">
+                        <h1 class="shinseiJiyu">申請事由</h1>
+                        <select id="reason">
+                            <option value="0">私用</option>
+                            <option value="1">その他</option>
+                        </select>
+                    </section>
+                    <section id="shinseiJiyu">
+                        <textarea class="shinseiJiyu" name="shinseiJiyu" rows="10" cols="40" placeholder="入力する..."></textarea>
+                    </section>
+                    <a id="regist" class="new waves-effect waves-light btn">新しい届出を出す</a>
+                </section>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

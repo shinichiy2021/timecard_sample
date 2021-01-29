@@ -1,0 +1,16 @@
+DECLARE @name NVARCHAR(1024)
+ 
+DECLARE @cur CURSOR
+SET @cur = CURSOR FOR SELECT name FROM sys.objects WHERE type in (N'P')
+ 
+OPEN @cur
+FETCH NEXT FROM @cur INTO @name
+ 
+WHILE(@@FETCH_STATUS = 0)
+BEGIN
+ EXECUTE( 'DROP PROCEDURE ' + @name )
+ FETCH NEXT FROM @cur INTO @name
+END
+ 
+CLOSE @cur
+DEALLOCATE @cur

@@ -1,0 +1,49 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!-- 2018/08/17 yamazaki スマホ登録処理を別ファイルに分けました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ログイン</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="dynamic-dom view view10011">
+            <section  id="login-view">
+                <header class="login">
+                    <img src="../../common/img/normal_logo.png">
+                </header>
+                <h2>スタッフログイン</h2>
+                <a class="link" href="#10012">アプリの新規登録はコチラ→</a>
+                <hr>
+                <p id='smartPhone'>スマートフォン登録がお済みの方はログインをしてください。</p>
+                <ul class="table" id="login">
+                    <li class="loginli">
+                        <input id="loginAccount" type="text" placeholder="会社アカウント" maxlength="20" class="input">
+                    </li>
+                    <li class="loginli">
+                        <input id="email" type="email" placeholder="メールアドレス" class="input">
+                    </li>
+                    <li class="loginli">
+                        <input id="passWord" type="password" placeholder="パスワード" maxlength="20" class="input">
+                    </li>
+                </ul>
+                <input id="btnLogin" type="button" name="btnLogin" value="ログイン" class="but">
+                <p class="line-renkei">
+                    <a class="btn line-btn" href="https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1654896859&redirect_uri=https:///timeCard/dev/pwa/smart_phone/view/1001_login.html&state=a6dpgjqlq8g&scope=profile">LINE ID連携</a>
+                    <p id='line-caution'>※LINEとの連携ができます。連携をしないと通知を受け取ることができません。</p>
+                    <!-- <a href="#1002">※アプリ登録情報を忘れた方</a> -->
+                </p>
+            </section>
+        </section>
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "GAIA（ガイア）",
+        "short_name": "GAIA",
+            "icons": [{
+                "src": "../pwa/icons/icon-192x192.png",
+                "sizes": "192x192",
+                "type": "image/png"
+            }, {
+                "src": "../pwa/icons/icon-512x512.png",
+                "sizes": "512x512",
+                "type": "image/png"
+            }],
+                "start_url": "../view/1001_login.html?utm_source=homescreen&registerID=a3765b886633a7e1db8b8ca9a1af4920eefde15d12185b97657d6ca3af32f0b3&udid==#10011",
+                    "display": "standalone",
+                        "background_color": "#FFFFFF",
+                            "theme_color": "#FFFFFF"
+}

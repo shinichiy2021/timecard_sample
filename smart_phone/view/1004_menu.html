@@ -1,0 +1,93 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/03 yamazaki アイコンの読み込みを修正しました -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!-- 2017/12/05 yamazaki ファイル名を変更しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>メニュー</title>
+    <meta charset="UTF-8">
+</head>
+
+<body class="b_ptenA b_ptenB b_ptenC">
+    <article>
+        <section data-role="view" class="view view1004">
+            <section class="logo">
+                <img src="../../common/img/normal_logo.png">
+            </section>
+            <section id="ymd" class="ymd">01月01日（日）</section>
+            <section id="time" class="time">00:00</section>
+            <section class="iconArea">
+                <div class="base" id="todoArea">
+                    <section id="todoIcon" class="dynamic-dom"></section>
+                    <input type="image" src="../img/todoIcon.png" id="todo" class="icons">
+                    <p id="todoP" class="icons">やること</p>
+                </div>
+                <div class="base" id="chatArea">
+                    <section id="chatIcon" class="dynamic-dom"></section>
+                    <input type="image" src="../img/chatIcon.png" id="chat" class="icons">
+                    <p id="kaiwaP" class="icons">仲間と会話</p>
+                </div>
+                <div class="base" id="eventArea">
+                    <section id="detailIcon" class="dynamic-dom"></section>
+                    <input type="image" src="../img/eventIcon.png" id="detail-menu" class="icons">
+                    <p class="icons">お知らせ</p>
+                </div>
+                <div class="base" id="setteiArea">
+                    <input type="image" src="../img/setteiIcon.png" id="settei" class="icons">
+                    <p class="icons">個人設定</p>
+                </div>
+            </section>
+            <section class="iconArea">
+                <div class="base" id="sinseiArea">
+                    <section id="sinseiIcon" class="dynamic-dom"></section>
+                    <input type="image" src="../img/sinseiIcon.png" id="sinsei" class="icons">
+                    <p id="sinseicategory" class="icons">申請</p>
+                </div>
+                <div class="base" id="faxArea">
+                    <section id="faxIconRed" class="dynamic-dom"></section>
+                    <section id="faxIconBlue" class="dynamic-dom"></section>
+                    <input type="image" class="icons" src="../img/faxicon.png" id="fax">
+                    <p id="faxP" class="icons">FAX</p>
+                </div>
+                <div class="base" id="gpsArea">
+                    <input type="image" src="../img/gpsIcon.png" id="gps" class="icons">
+                    <p class="icons">GPS打刻</p>
+                </div>
+            </section>
+            <section class="contentsA">
+                <div>
+                    <input type="image" id="kintai" class="t_A" src="../img/t-C.PNG" alt="タイムカード">
+                </div>
+            </section>
+            <section class="contentsB">
+                <div class="colorfilter-base">
+                    <input type="image" src="../img/teach.png" id="teach">
+                    <input type="image" src="../img/kaizen.png" id="kaizen">
+                    <p id="kyoikuP" class="orangeB opa">教育</p>
+                    <p id="kaizenP" class="cyanB opa">改善</p>
+                </div>
+            </section>
+            <section id="version"></section>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+                <!-- タイトル -->
+                <div class="info-content">
+                    <p id="infomation">
+                        <span>お知らせ</span>
+                    </p>
+                </div>
+                <ul id="info-in" class="dynamic-dom collapsible"></ul>
+                <div class="modal-footer">
+                    <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">閉じる</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

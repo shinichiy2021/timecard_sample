@@ -1,0 +1,162 @@
+.view1006 .mainTitle {
+    background-color: #20B2AA;
+}
+
+.view1006 .newEvent {
+    font-size: 5vw;
+    color: #0000ff;
+    width: 50%;
+    font-weight: bold;
+    line-height: 8vw;
+}
+
+.view1006 .emergency {
+    font-size: 5vw;
+    color: #ff0000;
+    width: 50%;
+    float: left;
+    font-weight: bold;
+    padding: 2vw 0 0 4vw;
+}
+
+.view1006 .normalEvent {
+    font-size: 5vw;
+    color: black;
+    width: 50%;
+    float: left;
+    margin: 0 0 3vh 0;
+    font-weight: bold;
+}
+
+.view1006 .all {
+    float: left;
+    width: 94%;
+}
+
+.view1006 p.noneOshirase {
+    margin: 30vh 5%;
+    width: 90%;
+    font-size: 6.5vw;
+    text-align: center;
+}
+
+.view1006 div#info_div {
+    padding: 10px 7%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    width: 93%;
+    font-size: 5vw;
+    background-color: #fff;
+    float: left;
+    margin: 0 3%;
+}
+
+.view1006 .subTitle {
+    margin: 0px 0 0 0;
+    font-size: 6vw;
+    width: 100%;
+    padding: 1vw 4vw;
+    word-wrap: break-word;
+}
+
+.view1006 .blue.lighten-2 {
+    background-color: #12968e !important;
+}
+
+.view1006 .edBut {
+    width: 33%;
+    float: right;
+    border: none;
+    font-size: 4vw;
+    -webkit-appearance: none;
+    height: 9vw;
+    line-height: 10vw;
+    padding: 0;
+    margin: 0vw 0vw 0 0;
+}
+
+.view1006 #back {
+}
+
+.view1006 .kigen, .view1006 .name, .view1006 .midoku {
+    width: 35%;
+    margin: 1vh 0;
+    font-size: 4vw;
+    text-align: center;
+    background: #20B2AA;
+    color: white;
+    height: 7vw;
+    line-height: 7vw;
+}
+
+.view1006 .keisaiKigen, .view1006 .sakuseisha, .view1006 .AllReadSum {
+    margin: 0;
+    font-size: 5vw;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.view1006 .midokuButton {
+    width: 35%;
+    font-size: 4vw;
+    float: left;
+    margin: 2vw 0;
+    height: 7vw;
+    line-height: 7vw;
+}
+
+.view1006 input.del[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 11px 3.5% 0 3.5%;
+}
+
+.view1006 .redCircle {
+    float: left;
+    color: red;
+    width: 8vw;
+    font-size: 8vw;
+    line-height: 8vw;
+}
+
+.view1006 .NoteBond {
+    margin: 0;
+    font-size: 5vw;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.view1006 .kurasikuMiru {
+    margin: 1vh 0;
+}
+
+.view1006 .brows {
+    margin: 0 5%;
+    float: right;
+    font-size: 4vw;
+}
+
+.view1006 .accordion {
+    background: white;
+}
+
+.view1006 .accordion .accordionIn {
+    font-size: 5vw;
+    padding: 6vw;
+}
+
+.view1006 h2 {
+    background-color: #20B2AA;
+    text-align: center;
+    display: inline-block;
+}
+
+.view1006 .card .card-content {
+    padding: 0vw;
+}
+
+.view1006 .row {
+    margin-bottom: 0vw;
+    border: 1px solid #999;
+    border-radius: 3px;
+}

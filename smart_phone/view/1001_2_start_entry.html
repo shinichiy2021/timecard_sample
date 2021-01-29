@@ -1,0 +1,46 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2018/08/17 yamazaki スマホ登録処理を別ファイルに分けました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ログイン</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view10012" id="login2">
+            <header class="login">
+                <img src="../../common/img/normal_logo.png">
+            </header>
+            <h2>アプリの新規登録</h2>
+            <a href="#10011">←ログインに戻る</a>
+            <hr>
+            <ul class="table">
+                <li class="loginli">
+                    <input id="loginAccount" type="text" placeholder="会社アカウント" maxlength="20" class="input">
+                    <img src="../img/hatena.png" class="hatena" id="hatena1">
+                    <div class="tooltip1">
+                        <span id="exhatena1">会社アカウントが不明な時は、御社のシステム管理責任者にアカウントを発行して貰ってください。</span>
+                    </div>
+                </li>
+                <li class="loginli">
+                    <input id="newEmail" type="email" placeholder="メールアドレス" class="input">
+                    <img src="../img/hatena.png" class="hatena" id="hatena2">
+                    <div class="tooltip2">
+                        <span id="exhatena2">弊社からのお知らせや、パスワードを忘れてしまった時のご連絡に使うメールアドレスになります。この情報は、後から変更が可能です。変更する際は、有効なEメールアドレスを登録してください。</span>
+                    </div>
+                </li>
+            </ul>
+            <p class="explain">登録するメールアドレスを入力してください。指定受信設定をされている場合はドメイン [@] を受信可能に設定してください。</p>
+            <input id="btnSend" type="button" name="btnSend" value="送信" class="but">
+            <p class="explain">送信ボタンを押すと、弊社事務局からお客様のご利用登録の為のURLを記載したメールが返信されます。返信メールが届かない場合は、受信設定の見直し、メールアドレスの間違いが無いか、迷惑メールに振り分けられていないかチェックしてください。5分以上経っても届かない場合は、再度メールアドレスの送信を行ってください。</p>
+            <div id="mailSent"></div>
+        </section>
+    </article>
+</body>
+
+</html>

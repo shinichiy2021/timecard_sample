@@ -1,0 +1,109 @@
+/*表示領域全体大枠*/
+body{
+width:100%;
+margin:0 auto;
+background-color:#f0f8ff;
+height:100%;	
+}
+
+/*サファリブラウザ丸ボタン禁止*/
+input[type="button"],input[type="submit"] {
+-webkit-appearance: none;
+  }
+
+
+div.all{
+width:100%;	
+}
+
+h3{
+width:100%;
+text-align: left;
+font-size: 3em;
+padding-left:2.5%;	
+}
+
+table.infotbl{
+width:100%;	
+}
+
+th#time{
+text-align: left;
+font-size: 2.5em;
+}
+
+th#day{
+text-align: left;
+font-size: 2.5em;
+}
+
+th.infotd{
+text-align: left;
+width:100%;
+padding-left:3%;
+font-size: 2.5em;	
+}
+
+
+td.infotd{
+text-align: left;
+width:100%;
+padding-left:3%;
+font-size: 2.5em;	
+}
+
+th.infotd1{
+text-align: left;
+width:100%;	
+}
+
+th.infotd2{
+text-align: left;
+width:50%;
+padding-left:2%;
+font-size: 1.5em;	
+}
+
+th.infotd3{
+text-align: left;
+width:70%;
+padding-left:2%;
+}
+
+td.infotd4{
+text-align: left;
+font-size: 2.5em;
+width:100%;
+padding-left:2%;
+padding-top:2%;
+color:#696969;
+}
+
+input.but {
+    display: block;
+    font-size: 3em;
+    margin: 10px 35%;
+    width: 30%;
+}
+
+table.finish {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>インフォメーション</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1021">
+            <div class="header">
+                <div class="mainTitle">
+                    <!-- 2018/11/30 yamazaki 戻るボタンを追加しました（メニューへ） -->
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>個人設定確認</h2>
+                    <p id="update" class="waves-effect waves-teal btn-flat">編集</p>
+                </div>
+            </div>
+            <div class="all">
+                <table class="tbl">
+                    <tr class="staff">
+                        <th colspan="2" class="staffNo_th">スタッフ番号 - 氏名</th>
+                        <td colspan="2" class="staffNo_td" id="staffInfo"></td>
+                    </tr>
+                    <tr class="kubun">
+                        <th class="groupName_th">所属部署</th>
+                        <th class="staffSelect_th">雇用形態</th>
+                        <td class="staffSelect_td" id="kubun"></td>
+                        <td class="groupName_td" id="post"></td>
+                    </tr>
+                    <tr class="kinmuPattern">
+                        <th class="workPtan_th">勤怠パターン</th>
+                        <th class="workPtan_th">入社日</th>
+                        <td class="workPtan_td" id="kinmuTime"></td>
+                        <td class="compnyIn_td" id="entDay"></td>
+                    </tr>
+                    <tr class="push">
+                        <th class="workPtan_th push">通知許可設定</th>
+                        <td class="workPtan_td" id="notify"></td>
+                    </tr>
+                    <tr class="line">
+                        <td class="hr">
+                            <hr>
+                        </td>
+                        <td class="workPtan_td" id="holiday"></td>
+                    </tr>
+                    <tr class="nyusha">
+                        <th class="compnyIn_th">メールアドレス</th>
+                        <td class="icon" id="email"></td>
+                    </tr>
+                    <tr class="icon">
+                        <th class="icon">会話用のアイコン</th>
+                        <td class="icon" id="chatIcon">
+                            <input id="nowIcon" src="" type="image" onerror=this.src="../../common/photo/noImage.png">
+                        </td>
+                    </tr>
+                    <tr class="nyusha">
+                        <td class="icon" id="logout">
+                            <img src="../img/logoutIcon.png">
+                            ログアウト
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <section id="scrollBottom"></section>
+        </section>
+    </article>
+</body>
+
+</html>

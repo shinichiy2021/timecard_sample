@@ -1,0 +1,65 @@
+.view10011 {
+    padding: 0 3%;
+}
+
+.view10011 h2 {
+    color: #000000a1;
+    font-size: 7vw;
+    width: 100%;
+}
+
+.view10011 .link {
+    float: right;
+}
+
+.view10011 #login input.input {
+    width: 95%;
+    font-size: 5vw;
+    vertical-align: middle;
+    margin: 1vw 0;
+    padding-left: 2vw;
+    display: block;
+    float: left;
+    background: white;
+}
+
+.view10011 input.but {
+    font-size: 7vw;
+    border-radius: 1vw;
+    width: 90%;
+    margin: 2vw 0;
+}
+
+.view10011 input.but {
+    width: 100%;
+    font-size: 6.5vw;
+    height: 11vw;
+    background-color: white;
+    padding: 0px;
+    border: outset;
+    color: #fff;
+    background-color: #49a9d4;
+}
+
+.view10011 p {
+    margin: 0;
+    font-size: 4.5vw;
+}
+
+.view10011 p.line-renkei {
+    text-align: center;
+    margin: 4vw 0;
+    text-align: center;
+}
+
+.view10011 p.line-renkei a {
+    width: 99%;
+    line-height: 10vw;
+    height: 10vw;
+    font-size: 6vw;
+}
+
+.view10011 hr {
+    margin-bottom: 10vw;
+    width: 100%;
+}

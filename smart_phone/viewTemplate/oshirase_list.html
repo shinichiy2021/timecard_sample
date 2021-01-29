@@ -1,0 +1,34 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--===================================================================-->
+<!-- テンプレート -->
+<section data-role="template">
+    <script type="text/template" id="oshirase-list">
+        <li class="row event">
+            <div class="col s12 m6 collapsible-header">
+            <section>
+                <p class="redCircle"><%= mark %></p>
+                <h1 class="<%= strID %>"><%= title %></h1>
+                <%= penButton %>
+                <p class="subTitle"><%= subTitle %></p>
+                <section class="kurasikuMiru">
+                    <label class="brows" for="adBtn<%= loopCounter %>">詳しく見る▼</label>
+                    <input class="flag" type="hidden" value="<%= flag %>" id="edit<%= loopCounter %>">
+                    <input class="str" type="hidden" value="<%= strSubTitle %>">
+                    <input class="eventNO" type="hidden" value="<%= eventNO %>" id="edit<%= loopCounter %>">
+                </section>
+            </section>
+            </div>
+            <div class="accordion collapsible-body">
+            <input type="checkbox" id="adBtn<%= loopCounter %>">
+                <p class="NoteBond"><%= NoteBond %></p>
+                <p class="kigen">掲載期限</p>
+                <p class="keisaiKigen"><%= dateString %></p>
+                <p class="name">作成者</p>
+                <p class="sakuseisha"><%= name %></p>
+                <%= midokuButton %>
+                <p class="AllReadSum"><%= AllReadSum %></p>
+            </div>
+        </li>
+    </script>
+</section>

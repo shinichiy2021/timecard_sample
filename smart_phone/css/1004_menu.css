@@ -1,0 +1,539 @@
+.view1004 #modal-bg {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 3;
+    opacity : 0.5;
+}
+
+.view1004 #modal-content {
+    width: 90%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    font-size: 6.5vw;
+    margin: 0 5%;
+    top: 10%;
+    left: 0;
+}
+
+.view1004 .info-content {
+    border: 2px solid #66C9DC;
+    background-color: #66C9DC;
+}
+
+.view1004 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vh 0;
+    font-weight: bold;
+}
+
+.view1004 #info-in {
+    height: 65vh;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    overflow: auto;
+    border: none;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.view1004 #info-in section.info {
+    margin: 1vh 0;
+}
+
+.view1004 #info-in p.noList {
+    margin: 25vh 0;
+    padding: 0;
+    font-size: 4vw;
+}
+
+.view1004 input[type="checkbox"] {
+    height: 3vh;
+    width: 8%;
+    margin: 2vh 2% 1vh 24%;
+    float: left;
+}
+
+.view1004 .emergency {
+    margin: 1vw 0 1vw 3vw;
+    width: 72%;
+    text-align: left;
+    color: red;
+    font-size: 5vw;
+}
+
+.view1004 .new {
+    margin: 1% 0 3vh 11%;
+    position: absolute;
+    width: 89%;
+    text-align: left;
+    color: blue;
+    font-size: 5vw;
+}
+
+.view1004 .event {
+    line-height: 5vh;
+    text-align: left;
+}
+
+.view1004 .subTitle {
+    padding: 0 0 0 11vw;
+    margin: 0;
+    font-size: 5vw;
+    width: 85%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.view1004 .maru {
+    position: relative;
+}
+
+.view1004 .redCircle {
+    color: red;
+    font-size: 8vw;
+    margin: 0;
+    float: left;
+    width: 9%;
+}
+
+/*========================
+アコーディオン部
+==========================*/
+/* 詳しくみるボタン */
+.view1004 .brows {
+    margin-right: 4%;
+    float: right;
+    font-size: 3.5vw;
+}
+
+.view1004 .accordion input[type="checkbox"] {
+    display: none;
+}
+
+.view1004 .accordion .accordionIn {
+    margin: 1vh 5% 0 10%;
+}
+
+/*アコーディオンの中身*/
+.view1004 .NoteBond {
+    margin: 0;
+    font-size: 5vw;
+    padding-left: 5vw;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.view1004 .kigen, .view1004 .name {
+    width: 35%;
+    margin: 1vh 0;
+    font-size: 4vw;
+    text-align: center;
+    background: #66C9DC;
+    color: white;
+    border-radius: 1vw;
+}
+
+.view1004 .keisaiKigen, .view1004 .sakuseisha {
+    margin: 0;
+    font-size: 5vw;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.view1004 .chkbox label {
+    font-size: 4vw;
+    text-align: left;
+    width: 57%;
+    float: left;
+    line-height: 7vh;
+}
+
+.view1004 #version {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 10px;
+}
+
+.view1004 div {
+    color: #000000;
+    text-align: center;
+}
+
+.view1004 #kinkyuTitle {
+    color: #FF0000;
+    font-size: 17vw;
+    padding: 1vw;
+    margin: 0;
+}
+
+.view1004 #kinkyuTitle2 {
+    font-size: 16vw;
+    padding: 20px;
+    margin: 0;
+}
+
+.view1004 .th1 {
+    font-size: 16vw;
+    padding: 20px;
+    margin: 0;
+}
+
+.view1004 .td1 {
+    color: #2C3E50;
+    margin: 0;
+    font-size: 15vw;
+    padding: 11px;
+}
+
+.view1004 section {
+    width: 100%;
+    float: left;
+}
+
+.view1004 .logo img {
+    margin: 0 30%;
+    width: 40%;
+}
+
+.view1004 .pattern {
+    width: 50%;
+}
+
+.view1004 .out {
+    margin: 30px;
+    font-size: 10vw;
+    float: right;
+}
+
+.view1004 .ymd {
+    font-size: 7vw;
+    text-align: center;
+}
+
+.view1004 .time {
+    font-size: 10vw;
+    text-align: center;
+    display: none;
+}
+
+.view1004 .contentsA {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.view1004 img#kintai {
+    display: block;
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    z-index: 2;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.view1004 .t_A {
+    display: block;
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    z-index: 3;
+    border: 0;
+    background: none;
+}
+
+.view1004 .todo_A {
+    display: block;
+    width: 50vw;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.view1004 .chat_A {
+    width: 50vw;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    float: left;
+    background: black;
+}
+
+.view1004 #teach {
+    width: 50%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    opacity: 0.4;
+    display: block;
+    float: left;
+    height: 21vh;
+}
+
+.view1004 #kaizen {
+    width: 50%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    opacity: 0.4;
+    display: block;
+    float: left;
+    height: 21vh;
+}
+
+.view1004 .downKuhaku {
+    margin-bottom: 50px;
+}
+
+.view1004 #detail-menu {
+    width: 15vw;
+    margin: 0 5vw;
+}
+
+.view1004 .icon {
+    position: relative;
+    border-radius: 26px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#3e3e3e));
+    background: -webkit-linear-gradient(top, #4a4a4a, #3e3e3e);
+    background: linear-gradient(to bottom, #4a4a4a, #3e3e3e);
+    background: gradient(linear, center top, center bottom, from(#4a4a4a), to(#3e3e3e));
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1004 .icon .badge {
+    position: absolute;
+    z-index: 2;
+    margin-left: 0;
+}
+
+.view1004 #faxIconRed .icon .badge {
+    margin-left: -5vw;
+}
+
+.view1004 #divDetail.icon .badge {
+    margin-top: -1vh;
+}
+
+.view1004 .icon .badge .inner {
+    display: block;
+    position: relative;
+    margin: 0.5vw;
+    height: 8vw;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 8vw;
+    font-size: 5vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ee757b), to(#c80507));
+    background: -webkit-linear-gradient(top, #ee757b, #c80507);
+    background: linear-gradient(to bottom, #ee757b, #c80507);
+    background: gradient(linear, center top, center bottom, from(#ee757b), to(#c80507));
+}
+
+.view1004 #dakokumore {
+    float: right;
+    margin-top: 4vh;
+    position: relative;
+    background-image: url(../img/dakoku.png);
+    width: 100%;
+    height: 29vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-bottom: 8vw;
+}
+
+.view1004 #dakoku {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 5vw;
+    font-weight: bold;
+    color: rgb(242,141,159);
+    margin-bottom: 0;
+    height: 30px;
+}
+
+.view1004 #dakokuCount {
+    font-size: 8vw;
+    top: 6.5vw;
+    position: absolute;
+    left: 77%;
+    color: rgb(242,141,159);
+    width: 21%;
+    text-align: center;
+}
+
+.view1004 #dakokuImg {
+    width: 100%;
+}
+
+.view1004 .button_sinsei {
+    display: block;
+    position: absolute;
+    top: 3em;
+    left: 30%;
+    width: 10%;
+    height: 150px;
+    border: 0;
+    background: none;
+    margin-left: -23%;
+}
+
+.view1004 i#notifi {
+    font-size: 8vw;
+    color: #ffffff;
+    background-color: red;
+    border: solid red;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.view1004 #kyoikuP {
+    font-size: 7vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 50.4%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+.view1004 #kaizenP {
+    font-size: 7vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 49.6%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0px;
+    float: left;
+    padding: 0;
+}
+
+.view1004 .cyanB {
+    background-color: rgb(105,210,231);
+}
+
+.view1004 .orangeB {
+    background-color: rgb(255,194,0);
+}
+
+.view1004 .opa {
+    opacity: 0.4;
+    /*カラーフィルタ効果の度合いを指定(※) 機能オープンしたらコメントアウトする*/
+}
+
+.view1004 .colorfilter-base {
+    background-color: gray;
+    /* カラーフィルタ効果の色を指定 */
+    display: inline-block;
+    /* (任意：インラインブロック化したい場合) */
+    width: 100%;
+    margin: 0;
+    opacity: 0.4;
+    /* カラーフィルタ効果の度合いを指定(※) 機能オープンしたらコメントアウトする*/
+}
+
+.view1004 .base {
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+.view1004 input#fax {
+    width: 16vw;
+    margin: 0 5vw;
+}
+
+.view1004 #faxIconBlue {
+    margin-left: 67%;
+}
+
+.view1004 footer {
+    display: none;
+}
+
+.view1004 footer .navi {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.view1004 footer .navi img {
+    width: 40%;
+    height: 10vw;
+    margin: 1vw 0;
+    float: left;
+}
+
+.view1004 footer .navi p {
+    width: 60%;
+    margin: 4vw 0;
+    font-size: 3vw;
+    text-align: center;
+    float: left;
+}
+
+.view1004 section.logo {
+    text-align: center;
+    float: left;
+    margin: 11vw 0 3vw 0;
+}
+
+.view1004 section.iconArea {
+    margin-top: 2vh;
+}
+
+.view1004 input#todo {
+    width: 15vw;
+    margin: 0 5vw;
+}
+
+.view1004 input#chat {
+    width: 18.5vw;
+    margin: 0 5vw;
+}
+
+.view1004 #settei {
+    width: 16vw;
+    margin: 0 5vw;
+}
+
+.view1004 #sinsei {
+    width: 15vw;
+    margin: 0 5vw;
+}
+
+.view1004 input#gps {
+    width: 11vw;
+    margin: 0 7vw;
+}
+
+.view1004 .red {
+    margin-top: -2vh;
+}
+
+.view1004 .badge.blue {
+    margin-top: -2vh;
+    margin-left: -14vw;
+}
+
+.view1004 section.contentsB {
+    margin-top: 20vw;
+}
+
+.view1004 .icons {
+    font-size: 4vw;
+}
+
+.view1004 .modal.modal-fixed-footer .modal-footer {
+    border: 0;
+}

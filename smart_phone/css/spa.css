@@ -1,0 +1,149 @@
+/* ロゴ */
+header img {
+    width: 36%;
+    margin: 3vw 32vw;
+}
+
+article.spa {
+    font-size: 5vw;
+    background-size: contain;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    display: none;
+    background-color: #f0f8ff;
+    padding-top: 20px;
+    /* iOS 10 以下の互換性を保つため */
+    padding-top: constant(safe-area-inset-top);
+    /* iOS 11.2未満用 */
+    padding-top: env(safe-area-inset-top);
+    /* iOS 11.2以上用 */
+}
+
+.template {
+    display: none;
+}
+
+input[type=text].red-error {
+    border: 2px #ff0000 double;
+}
+
+input[type=email].red-error {
+    border: 2px #ff0000 double;
+}
+
+input[type=password].red-error {
+    border: 2px #ff0000 double;
+}
+
+.view.view-show {
+    -webkit-animation: fadein 0.15s ease-out;
+}
+
+.view.view-hide {
+    -webkit-animation: fadeout 0.15s ease-out;
+}
+
+.view.view-show-reverse {
+    -webkit-animation: fadein 0.15s ease-out;
+}
+
+.view.view-hide-reverse {
+    -webkit-animation: fadeout 0.15s ease-out;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes carouselin {
+    0% {
+        -webkit-transform: translate(100vw, 0vh);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0vh);
+    }
+}
+
+@-webkit-keyframes carouselout {
+    0% {
+        -webkit-transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(-100vw, 0);
+    }
+}
+
+@-webkit-keyframes carouselin-reverse {
+    0% {
+        -webkit-transform: translate(-100vw, 0vh);
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0vh);
+    }
+}
+
+@-webkit-keyframes carouselout-reverse {
+    0% {
+        -webkit-transform: translate(0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(100vw, 0);
+    }
+}
+
+@-webkit-keyframes flipin {
+    0% {
+        -webkit-transform: perspective(1200) rotateY(-90deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(1200) rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes flipout {
+    0% {
+        -webkit-transform: perspective(1200) rotateY(0deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(1200) rotateY(90deg);
+    }
+}
+
+.detail-open {
+    /*display: block;*/
+    -webkit-animation: detail-open 0.25s ease-out;
+}
+
+@-webkit-keyframes detail-open {
+    0% {
+        transform: scale(1, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}

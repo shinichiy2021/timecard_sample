@@ -1,0 +1,27 @@
+.view1008 td .staff {
+    padding: 2vw 6vw;
+    font-size: 6.5vw;
+    color: black;
+    border-radius: 3vw;
+    font-weight: bold;
+    margin-top: 4vw;
+    border: 0;
+    background: white;
+    line-height: 1.25em;
+    text-align: left;
+}
+
+.view1008 input#notification[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 1vw 1.5%;
+    float: right;
+}
+
+.view1008 .mainTitle {
+    background-color: #20B2AA;
+}
+
+.view1008 div.but_div2 {
+    background-color: #66C9DC;
+}

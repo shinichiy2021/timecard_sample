@@ -1,0 +1,113 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/08/04  グループアイコンの画像アップロードを追加しました -->
+<!-- 2017/08/12 yamazaki CSSフレームワークを導入しました。 -->
+<!-- 2017/09/03 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>インフォメーション</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1018">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>グループの編集</h2>
+                    <p id="regist" class="waves-effect waves-teal btn-flat">登録</p>
+                    <p id="update" class="waves-effect waves-teal btn-flat">更新</p>
+                    <p id="delete" class="waves-effect waves-teal btn-flat">削除</p>
+                </div>
+            </div>
+            <div class="all">
+                <textarea id="title_text" class="lng materialize-textarea" name="title_text" placeholder="グループ名を入力する..." rows="4" cols="40" maxlength="255"></textarea>
+                <p id="msg">タップして変更↓</p>
+                <input id="member" src="../img/kao.png" type="image" value="編集" class="but">
+                <section id="member_su">
+                    <div>登録人数：0名</div>
+                </section>
+                <section id="editMsg"></section>
+                <div class="all-div">
+                    <table class="tbl">
+                        <tr class="">
+                            <th class="notify">グループアイコン</th>
+                            <td class="notify" id="chatIcon">
+                                <img decoding="async" id="nowIcon" src="" onerror=this.src="../../common/photo/noImage.png">
+                                <label class="photo">
+                                    <i id="camera" class="material-icons">camera_alt</i>
+                                    <input id="photo" type="file" value="写真を開く" class="but" accept="image/*">
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                    <section>
+                        <div class="pString">
+                            <p>アイコンを選択してください</p>
+                        </div>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="green" src="../../common/photo/nakama1.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="pink" src="../../common/photo/nakama2.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="yellow" src="../../common/photo/nakama3.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="blue" src="../../common/photo/nakama4.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="boy" src="../../common/photo/nakama5.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="boy2" src="../../common/photo/nakama6.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="girl" src="../../common/photo/nakama7.jpg" type="image">
+                        </section>
+                        <section class="iconTable">
+                            <input decoding="async" class="iconList" id="girl2" src="../../common/photo/nakama8.jpg" type="image">
+                        </section>
+                    </section>
+                </div>
+                <section id="scrollBottom"></section>
+                <div id="group" class="accordion">
+                    <table id="list" class="tbl">
+                        <tbody id="groupList"></tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- モーダル -->
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div id="info-in">
+                    <canvas id="mycanvas">Canvasに対応しているブラウザを使用して下さい。</canvas>
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-blue-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a id="close" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a>
+                    <a id="entry" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">保存する</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+[26] Log opened at 2020-04-20 08:17:33
+[26] I: Checking remote connect back address.
+[26] I: Checking header 'HTTP_X_FORWARDED_FOR'.
+[26] I: Checking header 'REMOTE_ADDR'.
+[26] W: Remote address not found, connecting to configured address/port: host.docker.internal:9222. :-|
+[26] W: Creating socket for 'host.docker.internal:9222', getaddrinfo: Illegal seek.
+[26] E: Could not connect to client. :-(
+[26] Log closed at 2020-04-20 08:17:33
+
+[29] Log opened at 2020-04-20 08:21:29
+[29] I: Checking remote connect back address.
+[29] I: Checking header 'HTTP_X_FORWARDED_FOR'.
+[29] I: Checking header 'REMOTE_ADDR'.
+[29] W: Remote address not found, connecting to configured address/port: host.docker.internal:9222. :-|
+[29] W: Creating socket for 'host.docker.internal:9222', getaddrinfo: Illegal seek.
+[29] E: Could not connect to client. :-(
+[29] Log closed at 2020-04-20 08:21:34
+
+[34] Log opened at 2020-04-20 08:24:47
+[34] I: Checking remote connect back address.
+[34] I: Checking header 'HTTP_X_FORWARDED_FOR'.
+[34] I: Checking header 'REMOTE_ADDR'.
+[34] W: Remote address not found, connecting to configured address/port: host.docker.internal:9222. :-|
+[34] W: Creating socket for 'host.docker.internal:9222', getaddrinfo: Illegal seek.
+[34] E: Could not connect to client. :-(
+[34] Log closed at 2020-04-20 08:24:47
+
+[26] Log opened at 2020-04-20 08:27:55
+[26] I: Checking remote connect back address.
+[26] I: Checking header 'HTTP_X_FORWARDED_FOR'.
+[26] I: Checking header 'REMOTE_ADDR'.
+[26] W: Remote address not found, connecting to configured address/port: host.docker.internal:9222. :-|
+[26] W: Creating socket for 'host.docker.internal:9222', getaddrinfo: Illegal seek.
+[26] E: Could not connect to client. :-(
+[26] Log closed at 2020-04-20 08:28:05
+

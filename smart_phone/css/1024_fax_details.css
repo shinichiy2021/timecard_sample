@@ -1,0 +1,110 @@
+.view1024 .mainTitle {
+    background-color: #20B2AA;
+}
+
+.view1024 h2 {
+    background-color: #20B2AA;
+    text-align: center;
+    display: inline-block;
+}
+
+.view1024 section#faxList {
+    margin-left: 2%;
+}
+
+.view1024 .unit {
+    float: left;
+    width: 30%;
+    margin: 0 3% 5% 0;
+}
+
+.view1024 .icon {
+    width: 1em;
+    height: 10px;
+    position: absolute;
+}
+
+.view1024 span.badge {
+    width: 5vw;
+    height: 5vw;
+}
+
+.view1024 p#bookMarkYLButton {
+    font-size: 8vw;
+    float: left;
+    width: 28%;
+    color: orange;
+}
+
+.view1024 p#bookMarkRdButton {
+    font-size: 8vw;
+    float: left;
+    width: 28%;
+    color: red;
+}
+
+.view1024 p#bookMarkOffButton {
+    font-size: 8vw;
+    float: left;
+    width: 28%;
+}
+
+.view1024 .bm {
+    width: 72%;
+    font-size: 4vw;
+    margin-top: 5%;
+}
+
+.view1024 #modal1 {
+    width: 100%;
+    height: 90vh;
+    max-height: 100%;
+    border-radius: 0;
+    margin: 5vh 0;
+}
+
+.view1024 .modalHeader {
+    background-color: #20B2AA;
+    height: 5vh;
+}
+
+.view1024 #cancel {
+    padding: 0;
+    margin: 4vw 2vw;
+}
+
+.view1024 #modalDate {
+    text-align: center;
+    line-height: 5vh;
+    background-color: #20B2AA;
+    color: #ffffff;
+}
+
+.view1024 .unit canvas {
+    height: 8em;
+    width: 100%;
+}
+
+.view1024 img.faxImage {
+    height: 8em;
+    width: 100%;
+}
+
+.view1024 #rotate {
+    float: left;
+    width: 15vw;
+    height: 10vw;
+    background-color: #ffffff;
+}
+
+.view1024 #ftBtn {
+    height: 16vw;
+}
+
+.view1024 #info-in {
+    height: 79vh;
+}
+
+.view1024 canvas {
+    width: 100%;
+}

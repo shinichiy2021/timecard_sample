@@ -1,0 +1,848 @@
+.view1011 .mainTitle {
+    background-color: #5589ff;
+}
+
+.view1011 .info-content {
+    border: 2px solid #aaa;
+    background-color: #F08080;
+    border-radius: 1em;
+    height: 90%;
+}
+
+.view1011 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+.view1011 #close {
+    font-size: 7.5vw;
+    height: 1em;
+    color: white;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    -webkit-appearance: none;
+    border: 0;
+    background: 0;
+    margin-right: 0.5em;
+    float: right;
+    width: 10%;
+}
+
+.view1011 #sinseiNaiyo {
+    margin-top: 0vw;
+}
+
+.view1011 #kyuka {
+    width: 65%;
+}
+
+.view1011 #kyukaDay {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0 0 0 0;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1011 #errorArea {
+    font-size: 5vw;
+    padding: 1%;
+    border: double 5px red;
+}
+
+.view1011 h1 {
+    -webkit-appearance: none;
+    font-size: 4vw;
+    width: 25%;
+    text-align: left;
+    clear: both;
+    line-height: 8vw;
+}
+
+.view1011 section.sinseiKomoku select {
+    width: 100%;
+    margin: 2vh 0;
+}
+
+.view1011 section select {
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    width: 28%;
+    margin: 0;
+    text-align: center;
+    padding-left: 2vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+}
+
+.view1011 select#todokedeKubun {
+    width: 75%;
+}
+
+.view1011 select.shoninSha {
+    width: 75%;
+}
+
+.view1011 section {
+    margin: 1vw 0;
+}
+
+.view1011 #kyukaShurui {
+    width: 67%;
+}
+
+.view1011 #sinseiFrom {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0 0 0 0;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1011 #sinseiTo {
+    font-size: 6.5vw;
+    width: 55%;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.view1011 #kyusitubi {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0 0 0 0;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1011 #taikinJikan {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+    height: 9.5vw;
+    float: left;
+}
+
+.view1011 .zangyo #taikinJikan {
+    text-align: center;
+}
+
+.view1011 #shukinJikan {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+    height: 9.5vw;
+}
+
+.view1011 .zangyo #shukinJikan {
+    text-align: center;
+}
+
+.view1011 #taikinJikan1 {
+    font-size: 6.5vw;
+    width: 90%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+}
+
+.view1011 #shukinJikan1 {
+    font-size: 6.5vw;
+    width: 90%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+}
+
+.view1011 #taikinJikan2 {
+    font-size: 6.5vw;
+    width: 90%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+}
+
+.view1011 #shukinJikan2 {
+    font-size: 6.5vw;
+    width: 90%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+}
+
+.view1011 .sinseiDate p {
+    width: 12%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 4vw;
+}
+
+.view1011 #dakokuDate {
+    font-size: 6.5vw;
+    width: 55%;
+    margin: 0 0 0 0;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1011 .deleteAlert {
+    text-align: right;
+    font-size: 3.5vw;
+    color: blue;
+    margin-top: 3vw;
+}
+
+.view1011 .kintaiTime {
+    font-size: 6.5vw;
+    width: 25%;
+    margin: 0;
+    float: left;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1011 hr {
+    border-top: 2px solid #bbb;
+    border-bottom: 5px solid #fff;
+}
+
+.view1011 label {
+    float: left;
+    width: 25%;
+    margin: 1vh 0 0 2%;
+}
+
+.view1011 label input {
+    width: 16%;
+    height: 8vw;
+    margin: 1vh 0 0;
+}
+
+.view1011 label p {
+    width: 15%;
+    font-size: 6.5vw;
+    line-height: 7.5vw;
+    margin: 1vh 0 0;
+}
+
+.view1011 .sotaiTodoke input {
+    width: 65%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 6.5vw;
+    line-height: 12vw;
+}
+
+.view1011 .tikokuTodoke input {
+    width: 64%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 6.5vw;
+    line-height: 12vw;
+}
+
+.view1011 .kyushutuTodoke input {
+    width: 64%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 6.5vw;
+    line-height: 12vw;
+}
+
+.view1011 .jikangaiTodoke input {
+    width: 64%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 6.5vw;
+    line-height: 12vw;
+}
+
+.view1011 #modal-content th {
+    -webkit-appearance: none;
+    font-size: 5.5vw;
+    margin: 1vh 0 0;
+    width: 31%;
+    text-align: left;
+}
+
+.view1011 #modal-content th.rest {
+    width: 22%;
+}
+
+.view1011 #modal-content th.del {
+    width: 10%;
+    font-size: 4vw;
+    color: red;
+}
+
+.view1011 #kintai01 th {
+    width: 25%;
+    font-size: 5vw;
+}
+
+.view1011 td.kintai {
+    width: 23%;
+    text-align: center;
+    margin: 0 2vw;
+    padding: 0.25em 0;
+}
+
+.view1011 #labSakujyo {
+    width: 20%;
+    float: left;
+}
+
+.view1011 .check {
+    width: 15%;
+    padding: 0 0 3vw 4vw;
+}
+
+.view1011 .ckBox {
+    background-color: #ffffff;
+}
+
+.view1011 td.kintai select {
+    text-align: center;
+    width: 83%;
+    padding-left: 4vw;
+    margin-left: 2vw;
+}
+
+.view1011 #regist {
+    background-color: yellow;
+    color: green;
+}
+
+.view1011 .new {
+    font-size: 5vw;
+    width: 80%;
+    margin: 4vw 10%;
+    font-weight: bold;
+    border-radius: 1vw;
+    -webkit-appearance: none;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+.view1011 textarea.shinseiJiyu {
+    padding: 1.5vw;
+    font-size: 6.5vw;
+    height: 5em;
+    background: white;
+    line-height: 7.5vw;
+}
+
+.view1011 input[type="button"],
+.view1011 input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+.view1011 .float_tbl {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.view1011 .float_tbl tr {
+    border: 1vw solid #FFA500;
+    border-radius: 3vw;
+}
+
+.view1011 .none_phone {
+    display: none;
+}
+
+.view1011 .cap {
+    display: none;
+}
+
+.view1011 #sen {
+    display: none;
+}
+
+.view1011 #setumei {
+    display: none;
+}
+
+.view1011 .caption {
+    white-space: nowrap;
+    font-size: 7vw;
+    background-color: #F08080;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 0.5%;
+}
+
+.view1011 img.cs4_03 {
+    margin-left: -36%;
+    margin-right: -2%;
+    width: 15%;
+    vertical-align: middle;
+    padding-bottom: 1%;
+}
+
+.view1011 table th.kihon {
+    display: none;
+}
+
+.view1011 table td.kihon {
+    display: none;
+}
+
+.view1011 div.space_div {
+    height: 40px;
+}
+
+.view1011 section.phonetbl_11 {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.view1011 section.phonetbl_1 {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.view1011 td.ymtxt {
+    background-color: white;
+    width: 60%;
+    font-size: 6vw;
+    padding: 0.4em 0;
+    text-align: center;
+}
+
+.view1011 th.thpc {
+    display: none;
+}
+
+.view1011 input.menu-btn {
+    margin: 0 5px;
+    float: right;
+    text-align: center;
+    width: 90%;
+    font-size: 4.0em;
+    background-color: #00ced1;
+    color: #000;
+}
+
+.view1011 input.yminput {
+    width: 74%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.view1011 table#kintai tr th.delete {
+    display: none;
+}
+
+.view1011 table#kintai tr th.plusth {
+    display: none;
+}
+
+.view1011 td#displayDate {
+    font-size: 5vw;
+    text-align: center;
+    padding: 0.5em 0;
+    background-color: #FFFFFF;
+    border: 1vw solid #F08080;
+    margin-top: 4vw;
+    border-radius: 3vw;
+}
+
+.view1011 td.Date_td {
+    width: 45%;
+}
+
+.view1011 tbody tr th.weekColor {
+    text-align: right;
+    font-size: 1.5em;
+    color: red;
+}
+
+.view1011 tbody tr th.weekColor a {
+    color: red;
+}
+
+.view1011 tbody tr th.weekBlue {
+    text-align: right;
+    font-size: 1.5em;
+    color: blue;
+}
+
+.view1011 tbody tr th.weekBlue a {
+    color: blue;
+}
+
+.view1011 tbody tr th.nowColor {
+    text-align: right;
+    font-size: 1.5em;
+    background-color: #FFFF00;
+}
+
+.view1011 tbody tr td.forgetColor {
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+
+.view1011 td.leftbut {
+    background-color: #ffffff;
+    padding: 3vw 25px;
+    width: 20%;
+    border-radius: 3vw 0 0 3vw;
+}
+
+.view1011 td.rightbut {
+    background-color: #ffffff;
+    padding: 3vw 25px;
+    width: 20%;
+    border-radius: 0 3vw 3vw 0;
+}
+
+.view1011 input.rightbut2 {
+    border-right: 7vw solid #FFA500;
+    background-color: #FFFFFF;
+    border-top: 4vw solid transparent;
+    border-bottom: 4vw solid transparent;
+    height: 0;
+    border-left: none;
+}
+
+.view1011 input.leftbut2 {
+    height: 0;
+    border-left: 7vw solid #FFA500;
+    background-color: #FFFFFF;
+    border-top: 4vw solid transparent;
+    border-bottom: 4vw solid transparent;
+    border-right: none;
+}
+
+.view1011 th.workDay_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #F08080;
+    border-right: 10px solid #FFFACD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.view1011 th.overWorkday_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #FFA500;
+    border-left: 10px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.view1011 td#inTime {
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-left: 15px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view1011 th.overWorkSum_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #20B2AA;
+    border-left: 15px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.view1011 tr.kou th {
+    font-size: 4vw;
+    border-right: 1px solid #FFFACD;
+}
+
+.view1011 tr.kou th a {
+    color: black;
+}
+
+.view1011 tr.kou td {
+    font-size: 5vw;
+    border-right: 1px solid #FFFACD;
+    box-sizing: content-box;
+    height: 7vw;
+    padding-top: 2vw;
+}
+
+.view1011 .phonetbl_11 th.workDay_th {
+    text-align: center;
+    border-left: 15px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view1011 thead tr.kou {
+    text-align: center;
+    background-color: #fa8072;
+    line-height: 5vw;
+    padding: 2vw 0;
+}
+
+.view1011 thead tr.kou th.pink {
+    background-color: #fa8072;
+}
+
+.view1011 tr.kou th.th1 {
+    width: 21%;
+}
+
+.view1011 tr.kou th.th2 {
+    width: 13%;
+}
+
+.view1011 tr.kou th.th3 {
+    width: 13%;
+}
+
+.view1011 tr.kou th.th4 {
+    width: 13%;
+}
+
+.view1011 tr.kou th.th5 {
+    width: 13%;
+}
+
+.view1011 tr.kou th.th6 {
+    width: 13%;
+}
+
+.view1011 tr.kou th.th7 {
+    width: 14%;
+    border-right: none;
+}
+
+.view1011 table#total {
+    margin-top: 4vw;
+}
+
+.view1011 th.pink_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 5vw;
+    color: #ffffff;
+    background-color: #fa8072;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 th.yellow_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 5vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 th.blue_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 5vw;
+    color: #ffffff;
+    background-color: #20B2AA;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 th.houtei {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #fa8072;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 th.yellow {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 th.blue {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #20B2AA;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1011 td.label {
+    width: 46%;
+    font-size: 5vw;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 2%;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0.25em 0;
+}
+
+.view1011 td.labelSmall {
+    width: 29%;
+    font-size: 5vw;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 2%;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0.25em 0;
+}
+
+.view1011 input#ym {
+    font-size: 2.0em;
+}
+
+.view1011 tbody#list tr:nth-child(even) {
+    background-color: #FFDAB9;
+}
+
+.view1011 tbody#list tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.view1011 tbody#list tr th.listDate {
+    font-weight: normal;
+    width: 21%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.view1011 tbody#list tr th {
+    font-weight: normal;
+    font-size: 5vw;
+    width: 13%;
+    height: 9vw;
+    padding-top: 2vw;
+}
+
+.view1011 tbody#list tr th.underTime {
+    width: 14%;
+    border-right: none;
+}
+
+.view1011 tbody#list tr th.inTime {
+    border-left: 1px solid #FFFACD;
+}
+
+.view1011 tbody#list tr td {
+    font-weight: normal;
+    width: 13%;
+    text-align: center;
+}
+
+.view1011 tbody#list tr td.restTime {
+    width: 12%;
+    border-right: none;
+}
+
+.view1011 tbody#list td input {
+    font-size: 3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.view1011 tbody#list th.shift {
+    display: none;
+}
+
+.view1011 h2 {
+    background-color: #5589ff;
+}
+.view1011 select#reason {
+    width: 35%;
+}
+
+.view1011 h1#zangyoRest {
+    width: 30%;
+}
+
+.view1011 input#restTime {
+    font-size: 6.5vw;
+    width: 50%;
+    margin: 0;
+    background: white;
+    padding: 0 0 0 3vw;
+    -webkit-appearance: none;
+    height: 9.5vw;
+    float: left;
+    text-align: center;
+}
+.view1011 .zangyo p{
+    width: 12%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+    font-size: 4vw;
+}

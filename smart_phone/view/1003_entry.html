@@ -1,0 +1,83 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--  -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/03 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>新規利用登録</title>
+    <meta charset="UTF-8">
+    <!-- スマホ画面メタタグ -->
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <link href="../../common/css/materialize.css" rel="stylesheet">
+    <link href="../css/entry_iPhone.css" rel="stylesheet" type="text/css">
+    <!-- JavaScriptファイルリンク -->
+    <script src="../../common/js/jquery.js"></script>
+    <script src="../../common/js/materialize.js"></script>
+    <script src="../../common/js/Class/classDatabase.js"></script>
+    <script src="../../common/js/Class/classMaster.js"></script>
+    <script src="../../common/js/Class/classException.js"></script>
+    <script src="../../common/js/Class/classTemplate.js"></script>
+    <script src="../../common/js/Class/getParameter.js"></script>
+    <script src="../../common/js/smart_phone/init.js"></script>
+    <script src="../../common/js/smart_phone/func.js"></script>
+    <script src="../../common/js/smart_phone/header.js"></script>
+    <script src="../js/1003_entry/init.js"></script>
+    <script src="../js/1003_entry/func.js"></script>
+    <script src="../js/1003_entry/main.js"></script>
+    <!-- CSSファイルリンク -->
+</head>
+
+<body>
+    <!-- ローディングのレイアウト -->
+    <div id="loader-bg"></div>
+    <!-- 全体大枠 -->
+    <form id="next" method="get" action="">
+        <div class="all">
+            <!-- ロゴ -->
+            <div>
+                <img src="../../common/img/normal_logo.png">
+            </div>
+            <!-- 見出し -->
+            <table class="Datetime">
+                <tr id="kari">
+                    <!-- 仮登録 -->
+                    <th>新規利用登録</th>
+                </tr>
+                <tr id="content">
+                    <!-- 内容 -->
+                    <th>以下の項目を入力して新規利用登録を
+                        <br>行ってください。</th>
+                </tr>
+            </table>
+            <ul class="table" id="login">
+                <li class="loginli">
+                    <input id="user" type="text" placeholder="会社アカウント" class="input">
+                    <div class="tooltip1">
+                        <img src="../img/hatena.png" class="hatena" id="hatena1">
+                        <span id="exhatena1" class="exhatena">会社アカウントが不明な時は、御社のシステム管理責任者にアカウントを発行して貰ってください。</span>
+                    </div>
+                </li>
+                <li class="loginli">
+                    <input id="passWord" type="password" placeholder="パスワードを設定する" maxlength="20" class="input">
+                    <img src="../img/hatena.png" class="hatena" id="hatena2">
+                    <span id="exhatena2" class="exhatena">次回ログイン時に使用するパスワードを設定します。この情報は、後から変更が可能です。</span>
+                </li>
+                <li class="loginli">
+                    <input id="appid" type="text" placeholder="アプリ登録用ID" class="input">
+                    <img src="../img/hatena.png" class="hatena" id="hatena3">
+                    <span span id="exhatena3" class="exhatena">アプリ登録用IDが不明な時は、御社のシステム管理責任者にIDを発行して貰ってください。<br>
+                        発行されたIDは、個人を特定する重要なIDとなりますので、紛失、漏洩には十分にご注意ください。</span>
+                </li>
+            </ul>
+            <p>※メールアドレスとパスワードは、次回ログイン時以降に個人設定の編集から変更が可能です。 変更する際は、有効なEメールアドレスを登録してください。
+            </p>
+            <input id="entryButton" type="button" value="登録" class="but">
+        </div>
+    </form>
+</body>
+
+</html>

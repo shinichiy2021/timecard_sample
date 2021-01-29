@@ -1,0 +1,10 @@
+/* CSS Document */
+@charset "UTF-8";
+
+table tr.selected {
+  background-color: #28A6E1;
+  color:white;
+}
+
+
+

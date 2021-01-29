@@ -1,0 +1,117 @@
+div.all {
+    font-size: 5vw;
+    background-size: contain;
+    padding: 0;
+    margin: 2vw 3% 21vw 3%;
+    width: 94%;
+}
+
+#loader-bg {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: linen;
+  z-index: 1;
+  opacity :0.5;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+/* Aタグ共通 */
+a {
+  text-decoration: none;
+  color:#000000;
+}
+
+/* ロゴ */
+img {
+    text-align: left;
+    width: 13vw;
+}
+
+h2 {
+  font-size: 8vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+#menu {
+  width: 70%;
+  border-radius: 5vw;
+}
+
+section {
+    border-color: black;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    border-style: solid;
+    margin: 1vw 0;
+    padding: 5vw 3vw;
+}
+
+p.explain1 {
+    margin: 6vw 0vw;
+    font-size: 4.5vw;
+    width: 100%;
+}
+
+p.explain2 {
+    margin: 6vw 0vw;
+    font-size: 4.5vw;
+    color: orange;
+    width: 100%;
+}
+
+p.explain3 {
+    margin: 8vw 0 0vw 0%;
+    text-align: center;
+    font-size: 5.5vw;
+    width: 100%;
+}
+
+input.but {
+    font-size: 7vw;
+    border-radius: 20px;
+    width: 90%;
+    margin: 2vw 5% 0 5%;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+section#badges {
+    border: none;
+    text-align:center;
+}
+
+a#app img {
+    text-align: left;
+    width: 60vw;
+}
+
+a#google img {
+    text-align: left;
+    width: 60vw;
+}
+
+#msg{
+  border: none;
+  margin: 0 7%;
+}
+
+
+
+

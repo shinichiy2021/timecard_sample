@@ -1,0 +1,47 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--  -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/08/09 yamazaki ヘッダーのレイアウトを修正しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>申請詳細</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1010">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2 id="sinseiTitle">申請リスト</h2>
+                </div>
+            </div>
+            <div class="all">
+                <section class="dynamic-dom list" id="listTable"></section>
+            </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+                <!-- タイトル -->
+                <div class="info-content">
+                    <p id="infomation">
+                        <span>確認済み状態</span>
+                    </p>
+                    <div id="info-in"></div>
+                </div>
+                <div class="modal-footer">
+                    <input type="checkbox" id="chkInfo" name="chkInfo" value="1" checked="checked" />
+                    <label class="send" for="chkInfo">申請した人に通知を送る</label>
+                    <a id="closeTop" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a>
+                    <a id="send" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">実行</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

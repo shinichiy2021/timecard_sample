@@ -1,0 +1,29 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--===================================================================-->
+<!-- テンプレート -->
+<section data-role="template">
+    <script type="text/template" id="popup">
+        <li class="event">
+            <div class="collapsible-header">
+                <section>
+                    <%= $maru %>
+                    <p class="subTitle"><%= subTitle %></p>
+                    <section class="kurasikuMiru">
+                        <input class="eventNo" type="hidden" value="<%= eventNo %>">
+                        <label class="brows">詳しく見る▼</label>
+                    </section>
+                </section>
+            </div>
+            <div class="collapsible-body">
+                <div class="accordionIn">
+                    <p class="NoteBond"><%= noteBond %></p>
+                    <p class="kigen">掲載期限</p>
+                    <p class="keisaiKigen"><%= keisaiKigen %></p>
+                    <p class="name">作成者</p>
+                    <p class="sakuseisha"><%= sakuseisha %></p>
+                </div>
+            </div>
+        </li>
+    </script>
+</section>

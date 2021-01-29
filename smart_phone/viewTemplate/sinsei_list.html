@@ -1,0 +1,23 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--===================================================================-->
+<!-- テンプレート -->
+<section data-role="template">
+    <script type="text/template" id="sinsei-list">
+        <tr class="todokede-<%= listCSS %>">
+            <td class="mIcon">
+                <img src="../img/<%= statusIconPath %>" id="toIcon">
+            </td>
+            <td class="mikanryo" id="bfStr0">
+                <p class="todokedeName <%= lineThrough %>"><%= todokedeName %>:</p>
+                <p id="showName<%= counter %>" class="listName <%= lineThrough %>">
+                    <%= showName %>
+                </p>
+                <p class="listData <%= classDateColor %> <%= lineThrough %>">
+                    <%= taishouDate %>
+                </p>
+            </td>
+            <td><input class="kakusi" type="hidden" value="<%= sinseiNo %>"></td>
+        </tr>
+    </script>
+</section>

@@ -1,0 +1,82 @@
+body {
+	background-color: #f0f8ff;
+  min-height:   600px;
+}
+
+input[type="button"],input[type="submit"] {
+ -webkit-appearance: none;
+  }
+
+
+/*Aタグ共通*/
+a{
+text-decoration: none;
+color:#000000;
+}
+
+/*ロゴ*/
+img {
+    text-align: left;
+    width: 15%;
+    /*padding-bottom: 1em;*/
+}
+
+/*datetime*/
+table.Datetime {
+    width: 100%;
+    border-style: solid;
+    /*margin: 0 10%;*/
+}
+
+/*仮登録*/
+tr#kari{
+  font-size: 2.5em;
+}
+
+/*内容*/
+tr#content{
+  font-size: 1em;
+}
+
+/*内容0*/
+tr#content0{
+  font-size: 2em;
+}
+
+div.logindiv{
+  width:80%;
+  height:30em;
+  margin:0 auto;
+  background-color:#f0f8ff;	
+}
+
+table#login{
+  text-align: center;
+  width:100%;
+  height:100%;
+  background-color: #f0f8ff;
+}
+
+input.input {
+    width: 90%;
+    line-height: 2em;
+    font-size: 2em;
+    vertical-align: middle;
+    /*padding-left: 29px;
+    margin-bottom: 53px;*/
+    margin: 10px 10px 10px 10px;
+}
+
+input.but{
+  font-size: 1.5em;
+  height:70px;
+  border-radius: 20px;
+ width:   95%;
+}
+.table{
+  background-color: #f0f8ff;
+}
+
+
+
+

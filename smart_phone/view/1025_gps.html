@@ -1,0 +1,73 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/11/17 yamazaki 新規作成 -->
+<!-- 2019/07/22    夜勤打刻モード追加 -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GPS打刻画面</title>
+    <meta charset="UTF-8">
+    <!-- スマホ画面メタタグ -->
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <link href="../../common/css/materialize.css" rel="stylesheet">
+    <link href="../css/gps.css" rel="stylesheet" type="text/css">
+    <!-- JavaScriptファイルリンク -->
+    <script src="../../common/js/jquery.js"></script>
+    <script src="../../common/js/materialize.js"></script>
+    <script src="../../common/js/jquery.cookie.js"></script>
+    <script src="../../common/js/Class/classDatabase.js"></script>
+    <script src="../../common/js/Class/classMaster.js"></script>
+    <script src="../../common/js/Class/classException.js"></script>
+    <script src="../../common/js/Class/classTemplate.js"></script>
+    <script src="../../common/js/Class/getParameter.js"></script>
+    <script src="../../common/js/smart_phone/init.js"></script>
+    <script src="../../common/js/smart_phone/func.js"></script>
+    <script src="../../common/js/smart_phone/header.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?&key=AIzaSyAsbO4rx9PcSoxh2j5EK_F-XR4aIFMKRas"></script>
+    <script src="../js/1025_gps/init.js"></script>
+    <script src="../js/1025_gps/func.js"></script>
+    <script src="../js/1025_gps/main.js"></script>
+</head>
+
+<body>
+    <!-- ローディングのレイアウト -->
+    <div id="loader-bg"></div>
+    <!-- 全体大枠 -->
+    <form id="next" method="get" action="">
+        <div class="all">
+            <img id="loadAnime" src="../img/loading.gif">
+            <p class="information">
+                位置情報を取得しています。
+                <br>ＧＰＳ機能を設定からオンにし、
+                <br>測位可能な場所へ移動してください。
+            </p>
+        </div>
+        <div class="modal-overlay">
+        </div>
+        <div id="dialog">
+            <p id="msg"></p>
+            <input type="button" id="daialogOk" value="OK">
+        </div>
+        <div id="google_map"></div>
+        <section id="addressArea">
+            <p id="yakinMsg"></p>
+            <div id="yakinButton">
+                <input type='image' src="../img/yakinOFF.png" class="yakinMode" id="yakinOff">
+                <input type='image' src="../img/yakinON.png" class="yakinMode" id="yakinOn">
+            </div>
+            <p>以下の地点で打刻しますか？</p>
+            <p id="gpsAdd"></p>
+            <div class="btnArea">
+                <input type="button" id="okBtn" value="GPS打刻">
+                <input type="button" id="cancelBtn" value="メニュー">
+                <button type="button" id="getBtn" value="reload">
+                    <img id="reloadBtn" src="../img/reload.png">
+                </button>
+            </div>
+        </section>
+    </form>
+</body>
+
+</html>

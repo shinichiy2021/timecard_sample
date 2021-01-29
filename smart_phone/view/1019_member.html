@@ -1,0 +1,80 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>メンバーリスト</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1019">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>メンバーリスト</h2>
+                    <p id="invitation" class="waves-effect waves-teal btn-flat">保存</p>
+                </div>
+            </div>
+            <div class="all">
+                <input id="new" type="button" value="新しいメンバーを選ぶ">
+                <hr>
+                <p id="midasi">現在登録されている人</p>
+                <div class="taiseki">
+                    <section>
+                        <table id="list" class="tbl">
+                            <tbody id="memberList" class="dynamic-dom"></tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+                <!-- タイトル -->
+                <div class="info-content">
+                    <p id="infomation">
+                        <span>メンバーを選ぶ</span>
+                    </p>
+                </div>
+                <div id="info-in">
+                    <section class="set">
+                        <p class="syotd">
+                            <select id="sPost" class="syoinput dynamic-dom"></select>
+                        </p>
+                        <p class="syotd">
+                            <input type="text" id="staffName" class="kuinput" placeholder="名前で検索する">
+                        </p>
+                    </section>
+                    <section class="modal_taiseki">
+                        <div>
+                            <table id="modal_allSerect" class="tbl1">
+                                <tbody id="allser">
+                                    <tr>
+                                        <td class="ck2">
+                                            <input class="et" type="checkbox">
+                                        </td>
+                                        <td class="sel" id="modal_choice">所属を選択する</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr>
+                        <table id="modal_list" class="tbl">
+                            <tbody id="modal_memberList" class="dynamic-dom"></tbody>
+                        </table>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <a id="close" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a>
+                    <a id="regist" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">追加</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

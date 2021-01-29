@@ -1,0 +1,799 @@
+.view1012 .info-content {
+    background-color: #F08080;
+    border: 2px solid #F08080;
+    text-align: center;
+}
+
+.view1012 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vh 0;
+    font-weight: bold;
+    width: 75%;
+    text-align: right;
+}
+
+.view1012 section#delArea {
+    background-color: #F08080;
+    border-radius: 0 0 5vw 5vw;
+    height: 12vh;
+}
+
+.view1012 p#new {
+    width: 30%;
+}
+
+.view1012 #sinseiColor {
+    display: inline;
+    width: 25%;
+    margin: 0 5% 0 8%;
+    background-color: pink;
+    border-radius: 1vw;
+}
+
+.view1012 #sinseiColor1 {
+    display: inline;
+    width: 25%;
+    margin: 0 5% 0 0;
+    background-color: yellowgreen;
+    border-radius: 1vw;
+}
+
+.view1012 #sinseiColor2 {
+    display: inline;
+    width: 25%;
+    margin: 0 5% 0 0;
+    background-color: red;
+    border-radius: 1vw;
+}
+
+.view1012 #description {
+    background-color: #FFFFFF;
+    border: solid #F08080;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.view1012 #info-in {
+    height: 64vh;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+.view1012 h1 {
+    -webkit-appearance: none;
+    font-size: 5.5vw;
+    margin: 1vh 0 0;
+    width: 33%;
+    text-align: left;
+}
+
+.view1012 select.shoninSha {
+    -webkit-appearance: button;
+    font-size: 5.5vw;
+    width: 65%;
+    margin: 1vh 0 0 2%;
+    text-align: center;
+    padding-left: 3vw;
+    background-color: #ffffff;
+    border-width: 1vw;
+    border-style: outset;
+    border-radius: 3vw;
+}
+
+.view1012 #sinseiYM {
+    font-size: 6.0vw;
+    width: 60%;
+    margin: 1vh 0 0 2%;
+    float: left;
+    height: 9.5vw;
+    text-align: left;
+}
+
+.view1012 label {
+    float: left;
+    width: 25%;
+    margin: 1vh 0 0 2%;
+}
+
+.view1012 label input {
+    width: 30%;
+    height: 8vw;
+}
+
+.view1012 label p {
+    width: 70%;
+    font-size: 6.5vw;
+    line-height: 7.5vw;
+}
+
+.view1012 section.deleteAlert {
+    font-size: 3.5vw;
+    color: red;
+    text-align: right;
+}
+
+.view1012 #modal-content th {
+    -webkit-appearance: none;
+    font-size: 5.5vw;
+    margin: 1vh 0 0;
+    width: 31%;
+    text-align: left;
+}
+
+.view1012 #modal-content th.rest {
+    width: 22%;
+}
+
+.view1012 #modal-content th.del {
+    width: 10%;
+    font-size: 4vw;
+    color: red;
+}
+
+.view1012 td.kintai {
+    width: 28%;
+    text-align: center;
+    margin: 0.5vh 1%;
+    padding: 0.25em 0;
+}
+
+.view1012 td.kintai input {
+    text-align: center;
+    font-size: 6vw;
+}
+
+.view1012 td.kintai select {
+    text-align: center;
+    font-size: 6.0vw;
+}
+
+.view1012 td#kyukei01,
+.view1012 td#kyukei02,
+.view1012 td#kyukei03 {
+    width: 22%;
+}
+
+.view1012 td.checkDelete {
+    width: 10%;
+    background: none;
+}
+
+.view1012 td.checkDelete input {
+    height: 7vw;
+}
+
+.view1012 #shinseiJiyu {
+    margin: 1vh 0;
+}
+
+.view1012 textarea.shinseiJiyu {
+    padding: 1vw;
+    font-size: 6vw;
+    height: 5em;
+}
+
+.view1012 #modal-content #regist {
+    font-size: 6.5vw;
+    width: 80%;
+    margin: 3.5vw 10% 2vw 10%;
+    font-weight: bold;
+    border-radius: 2vw;
+    background: #F08080;
+    border-width: 1vw;
+    border-style: outset;
+    color: white;
+}
+
+.view1012 input[type="button"],
+.view1012 input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+.view1012 .float_tbl {
+    margin: 2vw 0;
+}
+
+.view1012 .float_tbl tr {
+    border: 1vw solid #FFA500;
+    border-radius: 3vw;
+}
+
+.view1012 .none_phone {
+    display: none;
+}
+
+.view1012 .cap {
+    display: none;
+}
+
+.view1012 #sen {
+    display: none;
+}
+
+.view1012 #setumei {
+    display: none;
+}
+
+.view1012 .caption {
+    white-space: nowrap;
+    font-size: 7vw;
+    background-color: #F08080;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 0.5%;
+}
+
+.view1012 img.cs4_03 {
+    margin-left: -36%;
+    margin-right: -2%;
+    width: 15%;
+    vertical-align: middle;
+    padding-bottom: 1%;
+}
+
+.view1012 table th.kihon {
+    display: none;
+}
+
+.view1012 table td.kihon {
+    display: none;
+}
+
+/* .view1012 .all-div {
+    margin: 13vw 0 5vw 0;
+} */
+
+.view1012 div.space_div {
+    height: 40px;
+}
+
+.view1012 section.phonetbl_11 {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.view1012 section.phonetbl_1 {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.view1012 td.ymtxt {
+    background-color: white;
+    width: 60%;
+    font-size: 4vw;
+    padding: 1.6vw 0;
+    text-align: center;
+}
+
+.view1012 th.thpc {
+    display: none;
+}
+
+.view1012 input.menu-btn {
+    margin: 0 5px;
+    float: right;
+    text-align: center;
+    width: 90%;
+    font-size: 4.0em;
+    background-color: #00ced1;
+    color: #000;
+}
+
+.view1012 input.yminput {
+    width: 74%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.view1012 table#kintai tr th.delete {
+    display: none;
+}
+
+.view1012 table#kintai tr th.plusth {
+    display: none;
+}
+
+.view1012 td#displayDate {
+    font-size: 5vw;
+    text-align: center;
+    padding: 0.5em 0;
+    background-color: #FFFFFF;
+    border: 1vw solid #F08080;
+    margin-top: 4vw;
+    border-radius: 3vw;
+}
+
+.view1012 td.Date_td {
+    width: 45%;
+}
+
+.view1012 tbody tr th.weekColor {
+    text-align: right;
+    font-size: 1.5em;
+    color: red;
+}
+
+.view1012 tbody tr th.weekColor a {
+    color: red;
+}
+
+.view1012 tbody tr th.weekBlue {
+    text-align: right;
+    font-size: 1.5em;
+    color: blue;
+}
+
+.view1012 tbody tr th.weekBlue a {
+    color: blue;
+}
+
+.view1012 tbody tr th.nowColor {
+    text-align: right;
+    font-size: 1.5em;
+    background-color: #FFFF00;
+}
+
+.view1012 tbody tr td.forgetColor {
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+
+.view1012 td.leftbut {
+    background-color: #ffffff;
+    padding: 0.5vw 25px;
+    width: 20%;
+    border-radius: 1vw 0 0 1vw;
+}
+
+.view1012 td.rightbut {
+    background-color: #ffffff;
+    padding: 0.5vw 25px;
+    width: 20%;
+    border-radius: 0 1vw 1vw 0;
+}
+
+.view1012 input.rightbut2 {
+    border-right: 7vw solid #FFA500;
+    background-color: #FFFFFF;
+    border-top: 4vw solid transparent;
+    border-bottom: 4vw solid transparent;
+    height: 0;
+    border-left: none;
+}
+
+.view1012 input.leftbut2 {
+    height: 0;
+    border-left: 7vw solid #FFA500;
+    background-color: #FFFFFF;
+    border-top: 4vw solid transparent;
+    border-bottom: 4vw solid transparent;
+    border-right: none;
+}
+
+.view1012 th.workDay_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #F08080;
+    border-right: 10px solid #FFFACD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.view1012 th.overWorkday_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #FFA500;
+    border-left: 10px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.view1012 td#inTime {
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-left: 15px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view1012 th.overWorkSum_th {
+    white-space: nowrap;
+    font-size: 200%;
+    width: 250px;
+    color: #FFFFFF;
+    background-color: #20B2AA;
+    border-left: 15px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.view1012 tr.kou th {
+    font-size: 4vw;
+    border-right: 1px solid #FFFACD;
+}
+
+.view1012 tr.kou th a {
+    color: black;
+}
+
+.view1012 tr.kou td {
+    font-size: 4vw;
+    border-right: 1px solid #FFFACD;
+    box-sizing: content-box;
+    height: 7vw;
+    padding-top: 2vw;
+}
+
+.view1012 .phonetbl_11 th.workDay_th {
+    text-align: center;
+    border-left: 15px solid #FFFACD;
+    border-right: 10px solid #FFFACD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view1012 thead tr.kou {
+    text-align: center;
+    background-color: #fa8072;
+    line-height: 5vw;
+    padding: 2vw 0;
+}
+
+.view1012 tr.kou th.th1 {
+    width: 21%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th2 {
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th3 {
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th4 {
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th5 {
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th6 {
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tr.kou th.th7 {
+    width: 14%;
+    border-right: none;
+    text-align: center;
+}
+
+.view1012 table#total {
+    margin-top: 2vw;
+}
+
+.view1012 th.pink_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #fa8072;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.view1012 th.yellow_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 5vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+}
+
+.view1012 th.blue_th_pc {
+    width: 46%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #20B2AA;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.view1012 th.houtei {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #fa8072;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.view1012 th.o_yellow {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.view1012 th.g_blue {
+    width: 29%;
+    vertical-align: middle;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #20B2AA;
+    margin: 0 2%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.view1012 td.label {
+    width: 46%;
+    font-size: 4vw;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 2%;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0.25em 0;
+}
+
+.view1012 td.labelSmall {
+    width: 29%;
+    font-size: 4vw;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 2%;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0.25em 0;
+}
+
+.view1012 input#ym {
+    font-size: 2.0em;
+}
+
+.view1012 tbody#list tr:nth-child(even) {
+    background-color: #FFDAB9;
+}
+
+.view1012 tbody#list tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.view1012 tbody#list tr th.listDate {
+    font-weight: normal;
+    width: 21%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.view1012 tbody#list tr th {
+    font-weight: normal;
+    font-size: 4vw;
+    width: 13%;
+    height: 9vw;
+    padding-top: 2vw;
+}
+
+.view1012 tbody#list tr th.underTime {
+    width: 14%;
+    border-right: none;
+    text-align: center;
+}
+
+.view1012 tbody#list tr th.inTime {
+    border-left: 1px solid #FFFACD;
+    text-align: center;
+}
+
+.view1012 tbody#list tr th.overTime {
+    text-align: center;
+}
+
+.view1012 tbody#list tr td {
+    font-weight: normal;
+    width: 13%;
+    text-align: center;
+}
+
+.view1012 tbody#list tr td.restTime {
+    width: 12%;
+    border-right: none;
+}
+
+.view1012 tbody#list td input {
+    font-size: 3em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.view1012 tbody#list th.shift {
+    display: none;
+}
+
+.view1012 th.value.listDate.wait {
+    background-color: pink;
+}
+
+.view1012 th.value.listDate.wait a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.view1012 th.value.listDate.syonin {
+    background-color: yellowgreen;
+}
+
+.view1012 th.value.listDate.syonin a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.view1012 th.value.listDate.kyakka {
+    background-color: red;
+}
+
+.view1012 th.value.listDate.kyakka a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.view1012 h2 {
+    padding: 2vw 5vw 2vh 0;
+}
+
+.view1012 .mainTitle {
+    background-color: #F08080;
+}
+
+.view1012 div.but_div2 {
+    background-color: #F08080;
+}
+
+.view1012 .sdNo {
+    width: 100%;
+}
+
+.view1012 .sdNameButton {
+    background-color: Red;
+    color: #fff;
+}
+
+.view1012 .sdNamelabel {
+    background-color: #248;
+    color: #fff;
+}
+
+.view1012 p.todokede {
+    font-size: 6.5vw;
+    font-weight: bold;
+    margin: 2vw 0;
+}
+
+.view1012 p.labelName {
+    background-color: #66C9DC;
+    width: 35%;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    border-radius: 1vw;
+}
+
+.view1012 .staffName {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 5.5vw;
+}
+
+.view1012 .kanriName {
+    width: 55%;
+    font-size: 5.5vw;
+    margin: 0 5% 3%;
+    text-align: left;
+    display: inline;
+}
+
+.view1012 .workStaffName {
+    width: 67%;
+    margin: 1vh 0 1vh 5%;
+    font-size: 5.5vw;
+}
+
+.view1012 .hiduke {
+    width: 55%;
+    margin: 0 5% 3%;
+    font-size: 5.5vw;
+    text-align: left;
+    display: inline;
+}
+
+.view1012 .startEndDate {
+    width: 55%;
+    margin: 0 5% 2%;
+    font-size: 5.5vw;
+    text-align: left;
+}
+
+.view1012 .edBut {
+    width: 30%;
+    float: right;
+    font-size: 5vw;
+}
+
+.view1012 .brows {
+    float: right;
+}
+
+.view1012 .kuwasikuMiru {
+    margin-top: 2vh;
+}
+
+.view1012 input.delButton {
+    font-size: 6.5vw;
+    width: 80%;
+    margin: 2vw 10%;
+    font-weight: bold;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+    border-width: 1vw;
+    border-style: outset;
+    background-color: yellow;
+}
+
+.view1012 .inHiduke {
+    width: 55%;
+    font-size: 5.5vw;
+    text-align: left;
+    margin: 0 5% 3%;
+}
+
+.view1012 #listTable section {
+    margin: 0vw 0;
+}
+/* モーダルの閉じるボタン */
+.view1012 #close {
+    color: #ffffff;
+    width: 15vw;
+    font-size: 15vw;
+    height: 5vh;
+    margin-top: 1.5vh;
+    text-align: right;
+}

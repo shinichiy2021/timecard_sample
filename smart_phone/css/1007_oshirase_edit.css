@@ -1,0 +1,93 @@
+.view1007 .mainTitle {
+    background-color: #20B2AA;
+}
+
+.view1007 section#select {
+    -webkit-appearance: none;
+}
+
+.view1007 h1 {
+    -webkit-appearance: none;
+    font-size: 4.5vw;
+    margin: 2.5vw 0 0 2.5vw;
+    width: 33%;
+}
+
+.view1007 p#new {
+    float: right;
+}
+
+.view1007 #text {
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+.view1007 #ym {
+    font-size: 6.5vw;
+    width: 58%;
+    margin: 2.5vw 0 0 2%;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1007 #name {
+    font-size: 6.5vw;
+    width: 60%;
+    margin: 2.5vw 0 0 10px;
+    float: left;
+}
+
+.view1007 select#title {
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    width: 62%;
+    margin: 1vh 0 0 2%;
+    text-align: center;
+    padding: 0vw 3vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+}
+
+.view1007 section#kikan {
+    -webkit-appearance: none;
+}
+
+.view1007 input#ym[type="text"] {
+    -webkit-appearance: none;
+    width: 350px;
+    font-size: 6.5vw;
+    padding: 5px 0px 5px 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #666666;
+}
+
+.view1007 #subTitle {
+    -webkit-appearance: none;
+    font-size: 6.5vw;
+    margin: 3vw 0;
+    padding: 0 0 0 2vw;
+    background: white;
+    width: 97%;
+}
+
+.view1007 textarea#msgText {
+    -webkit-appearance: none;
+    padding: 2vw;
+    border-radius: 1vw;
+    font-size: 6.5vw;
+    height: 7em;
+    background: white;
+    line-height: 7.5vw;
+}
+
+.view1007 h2 {
+    background-color: #20B2AA;
+}
+
+.view1007 div.but_div2 {
+    background-color: #66C9DC;
+}

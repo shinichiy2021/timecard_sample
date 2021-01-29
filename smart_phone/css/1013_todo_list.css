@@ -1,0 +1,590 @@
+.view1013 input[type="button"] {
+    height: 10vh;
+    font-size: 4.5vw;
+    border-radius: 3vw;
+    margin: 2.25vw 0;
+    -webkit-appearance: none;
+    background: #66C9DC;
+    border-style: none;
+    border-radius: 1vw;
+    opacity: 1;
+    color: white;
+}
+
+.view1013 .but_div2 section {
+    margin-top: 2vh;
+}
+
+.view1013 .info-content {
+    border: 2px solid #aaa;
+    background-color: #66C9DC;
+    border-radius: 30px;
+    height: 50%;
+}
+
+.view1013 #detail {
+    width: 20%;
+    float: right;
+    border-radius: 10px;
+}
+
+.view1013 #close {
+    font-size: 5vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 35%;
+}
+
+.view1013 #closeTop {
+    width: 10%;
+    margin-top: 2%;
+    font-size: 5vw;
+    height: 30px;
+    line-height: 5%;
+}
+
+.view1013 #infomation {
+    color: white;
+    margin: 2% 0 0 5%;
+    font-size: 5vw;
+    width: 80%;
+}
+
+.view1013 #info-in {
+    background-color: linen;
+    height: 70%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.view1013 .send {
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+.view1013 .titleButton {
+    width: 100%;
+    font-size: 5vw;
+    border: none;
+    background-color: linen;
+}
+
+.view1013 #info1 {
+    margin: 10% 0 2% 0;
+}
+
+.view1013 #info2 {
+    margin: 5% 0 5% 0;
+}
+
+.view1013 #info3 {
+    margin: 2% 0 10% 0;
+}
+
+.view1013 .edBut {
+    width: 35%;
+    margin-left: 60%;
+    border-width: 1vw;
+    border-radius: 3vw;
+    border-style: outset;
+    margin-bottom: 2.5vw;
+}
+
+.view1013 .tododiv {
+    width: 78%;
+}
+
+.view1013 .input {
+    border-radius: 1vw;
+    background: #66C9DC;
+    height: 13vw;
+    border: 0;
+    margin-bottom: 2vw;
+}
+
+.view1013 #newText {
+    width: 79vw;
+    font-size: 6.5vw;
+    height: 10vw;
+    color: white;
+    margin: 0;
+    padding-left: 2vw;
+    border: 0;
+    padding-top: 1vw;
+}
+
+.view1013:placeholder-shown {
+    color: white;
+}
+
+.view1013::-webkit-input-placeholder {
+    color: white;
+}
+
+.view1013:-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.view1013::-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.view1013:-ms-input-placeholder {
+    color: gray;
+}
+
+.view1013 #new {
+    width: 13%;
+    height: 12vw;
+    font-weight: bold;
+    font-size: 13vw;
+    color: white;
+}
+
+.view1013 .list tr {
+    margin: 0.5vw 0;
+    background: white;
+    border-radius: 1vw;
+    height: auto;
+}
+
+.view1013 th.check {
+    width: 15%;
+    padding: 4vw 4vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1013 td.check {
+    width: 15%;
+    padding: 4vw 4vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1013 th.mIcon {
+    width: 15%;
+    padding: 4vw 2vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1013 td.mIcon {
+    width: 15%;
+    padding: 3vw 2vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1013 .listData {
+    font-size: 4.5vw;
+    width: 100%;
+    height: auto;
+    line-height: 9vw;
+    vertical-align: middle;
+    border-radius: 0 2.5vw 2.5vw 0;
+    text-align: left;
+    font-weight: normal;
+    color: black;
+}
+
+.view1013 .mikanryo {
+    width: 68%;
+    color: black;
+    height: 16vw;
+}
+
+.view1013 .kanryo {
+    width: 68%;
+    color: gray;
+    height: 16vw;
+}
+
+.view1013 .delButton {
+    width: 13%;
+    margin: 0 0 0 3%;
+}
+
+.view1013 .bmButton {
+    width: 13%;
+    margin: 0 0 0 3%;
+}
+
+.view1013 #deleteButton {
+    color: gray;
+    font-size: 11vw;
+    margin: 2vw 0;
+}
+
+.view1013 #newIcon {
+    font-size: 7vw;
+    margin: 0 1vw;
+    background-color: red;
+    color: #ffffff;
+}
+
+.view1013 #bookMarkOffButton {
+    color: gray;
+    font-size: 11vw;
+    margin: 2vw 0;
+}
+
+.view1013 #bookMarkOnButton {
+    color: red;
+    font-size: 11vw;
+    margin: 2vw 0;
+}
+
+.view1013 .delButton input {
+    height: 12vw;
+    font-weight: bold;
+    border: 0.5vw gray solid;
+}
+
+.view1013 .bmButton input {
+    height: 12vw;
+    font-weight: bold;
+    border: 0.5vw gray solid;
+}
+
+.view1013 .noList {
+    text-align: center;
+    padding: 50% 0 20% 0;
+}
+
+.view1013 h1 {
+    margin-left: 2%;
+}
+
+.view1013 .event {
+    background-color: #ffffff;
+    border: solid #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    margin: 3%;
+    width: 93%;
+}
+
+.view1013 .status {
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    border-width: 1vw;
+    border-radius: 3vw;
+    border-style: outset;
+}
+
+.view1013 .myStatus {
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    border-style: outset;
+    border-width: 1vw;
+    border-radius: 3vw;
+}
+
+.view1013 .todoListTitle {
+    width: 30%;
+    margin: 3% 0 0 30%;
+    float: left;
+    font-size: 7.5vw;
+}
+
+.view1013 .accordion input[type="checkbox"] {
+    display: none;
+}
+
+.view1013 .accordion .accordionIn {
+    overflow: hidden;
+    height: 0;
+    text-decoration: none;
+    -webkit-transition: height .5s ease-out;
+    transition: height .5s ease-out;
+    border-radius: 5vw;
+}
+
+.view1013 .accordion input[type="checkbox"]:checked+.accordionIn {
+    height: 40vw;
+    overflow-y: scroll;
+}
+
+.view1013 .todo {
+    width: 80%;
+    margin: 0 10% 5vw 10%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+}
+
+.view1013 .label {
+    margin-left: 10%;
+    width: 25%;
+    font-weight: bold;
+}
+
+.view1013 .label1 {
+    margin-left: 10%;
+    width: 40%;
+    font-weight: bold;
+}
+
+.view1013 .label2 {
+    width: 50%;
+    font-weight: bold;
+}
+
+.view1013 .staffName {
+    width: 40%;
+    font-weight: bold;
+}
+
+.view1013 .workerName {
+    width: 55%;
+    font-weight: bold;
+}
+
+.view1013 .hiduke {
+    width: 65%;
+}
+
+.view1013 .edBut {
+    margin: 0 5% 0 0;
+    width: 7%;
+    float: right;
+}
+
+.view1013 .brows {
+    margin: 0 5%;
+    width: 30%;
+    float: right;
+}
+
+.view1013 .kurasikuMiru {
+    margin: 2.5vw 0;
+}
+
+.view1013 .Kigen {
+    color: blue;
+    font-size: 4vw;
+    line-height: normal;
+    height: 5vw;
+}
+
+.view1013 .kigenGire {
+    color: red;
+    font-size: 4vw;
+    line-height: normal;
+    height: 5vw;
+}
+
+.view1013 #newTodoIcon {
+    font-size: 11vw;
+    width: auto;
+}
+
+.view1013 .refineIcon {
+    width: 15%;
+    margin: -2vw 5vw 0vw 0vw;
+}
+
+.view1013 #reset {
+    border-bottom: 0.1vw solid;
+    color: #ffffff;
+}
+
+.view1013 #strReset {
+    height: 15vw;
+    padding: 5vw 4vw;
+}
+
+.view1013 .icon {
+    position: relative;
+    border-radius: 26px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#3e3e3e));
+    background: -webkit-linear-gradient(top, #4a4a4a, #3e3e3e);
+    background: linear-gradient(to bottom, #4a4a4a, #3e3e3e);
+    background: gradient(linear, center top, center bottom, from(#4a4a4a), to(#3e3e3e));
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1013 .icon .badge {
+    position: absolute;
+    right: 0%;
+    width: 13%;
+    height: 12vw;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1013 .icon .badge .inner {
+    display: block;
+    position: relative;
+    margin: 1vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 10vw;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ee757b), to(#c80507));
+    background: -webkit-linear-gradient(top, #ee757b, #c80507);
+    background: linear-gradient(to bottom, #ee757b, #c80507);
+    background: gradient(linear, center top, center bottom, from(#ee757b), to(#c80507));
+}
+
+.view1013 .detailIcon .badge {
+    background-color: yellow;
+    border-radius: 65% 65% 65% 65%;
+    font-size: 6vw;
+    position: absolute;
+    right: 10%;
+    width: 15%;
+    padding: 3% 0 3% 0;
+    text-align: center;
+}
+
+.view1013 .request {
+    font-size: 6.5vw;
+    margin-top: 2.5vw;
+}
+
+.view1013 input#switchBtn {
+    height: 8vw;
+    font-size: 5vw;
+    width: 68%;
+    margin: 4vw 16%;
+}
+
+.view1013 input[type="button"]#bfComp,
+.view1013 input[type="button"]#complete,
+.view1013 input[type="button"]#all_bfComp,
+.view1013 input[type="button"]#all_complete,
+.view1013 input[type="button"]#noStart,
+.view1013 input[type="button"]#progress,
+.view1013 input[type="button"]#reserve,
+.view1013 input[type="button"]#wait,
+.view1013 input[type="button"]#finish {
+    background-image: url(../img/todo_button.png);
+    background-size: 65%;
+    background-position: 50% 50%;
+    font-size: 6.5vw;
+}
+
+.view1013 input.headbut {
+    width: 33.3%;
+    height: 15vw;
+    color: black;
+    border: none;
+    margin: 0;
+    border-radius: 5vw 5vw 0 0;
+    font-size: 3.5vw;
+    background: darkgray;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.view1013 a {
+    color: #000000;
+}
+
+.view1013 div.space {
+    height: 20px;
+}
+
+.view1013 th#time {
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35vw;
+    padding-right: 2%;
+}
+
+.view1013 th#day {
+    width: 55%;
+    font-size: 22vw;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 3%;
+}
+
+.view1013 div.space {
+    height: 40px;
+}
+
+.view1013 table.infotbl {
+    background-color: #ffffff;
+    text-align: left;
+    -webkit-appearance: none;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+.view1013 th.title {
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1013 th.title h1 {
+    font-size: 10vw;
+}
+
+.view1013 td.info {
+    color: #696969;
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1013 td.info p {
+    font-size: 7.5vw;
+}
+
+.view1013 div.btndiv {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1013 table.btntbl {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1013 th.botth {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1013 input.botbtn {
+    width: 80%;
+    height: 140px;
+    font-size: 22vw;
+    background-color: #ffffff;
+}
+
+.view1013 .mainTitle {
+    background-color: #66C9DC;
+}
+
+.view1013 .side-nav {
+    background-color: #66C9DC;
+    padding: 11vw 0 0 0;
+}
+
+.view1013 li span {
+    color: white;
+    display: block;
+    font-size: 5.5vw;
+    padding: 4vw 4vw;
+    line-height: 6.5vw;
+}
+
+.view1013 div.but_div2 {
+    background-color: #66C9DC;
+}
+
+.view1013 div.mytodo {
+    padding-top: 2vh;
+}

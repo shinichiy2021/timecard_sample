@@ -1,0 +1,194 @@
+div.all {
+  font-size: 5wv;
+  width: 92%;
+  background-image: url(../img/todoBackground.gif);
+  background-repeat: repeat-y;
+  -moz-background-size: contain;
+  background-size: contain;
+  margin-bottom: 20px;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.edBut {
+  width: 35%;
+  margin-left: 60%;
+  border-style: outset;
+    border-width: 1vw;
+    border-radius: 3vw;
+  margin-bottom: 3vw;
+}
+
+.tododiv {
+  width: 78%;
+}
+
+/* サファリブラウザ丸ボタン禁止 */
+input[type="button"], input[type="submit"] {
+  -webkit-appearance: none;
+  display: block;
+  float: right;
+  width: 20%;
+  height: 10vw;
+  line-height: 10vw;
+}
+
+/* リンク共通 */
+a {
+  color:#000000;
+}
+/* 縦空白 */
+div.space {
+  height:20px;
+}
+
+/* 時間・日付TABLE */
+table.Datetime {
+}
+
+/* 時間TH */
+th#time {
+  width:45%;
+  height:100px;
+  text-align:center;
+  vertical-align: middle;
+  font-size: 35vw;
+  padding-right:2%;
+}
+
+
+/* 日付TH */
+th#day {
+  width:55%;
+  font-size: 20vw;
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 3%;
+}
+
+/* スペースDIV */
+div.space {
+  height:40px;
+}
+
+/* ToDo枠 */
+table.infotbl {
+  background-color:#ffffff;
+  text-align: left;
+  -webkit-appearance: none;
+  padding: 10px 5px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+  margin-bottom:  40px;
+}
+
+/* 項目テキスト */
+th.title {
+  padding-left:1%;
+  background-color:#ffffff;
+}
+
+th.title h1 {
+  font-size: 10vw;
+}
+
+/* 詳細テキスト */
+td.info {
+  color:#696969;
+  padding-left:1%;
+  background-color:#ffffff;
+}
+
+td.info p {
+  font-size: 8vw;
+}
+
+/* 終了大枠DIV */
+div.btndiv {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 終了枠TABLE */
+table.btntbl {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 終了TH */
+th.botth {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 終了するボタンINPUT */
+input.botbtn{
+  width:80%;
+  height:140px;
+  font-size: 22vw;
+  background-color:#ffffff;
+}
+
+.icon {
+  font-size: 10vw;
+  float: right;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  color:  #fff;
+  background-color:#F08080;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 0;
+}
+
+.icon2 {
+  font-size: 10vw;
+  float: right;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  color:  #fff;
+  background-color:#F5C53A;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 0;
+}
+
+.icon3 {
+  font-size: 10vw;
+  float: right;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  color:  #fff;
+  background-color:#3B3C3D;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 0;
+  margin-top:   10%;
+}
+
+
+/*========================
+ ヘッダー
+==========================*/
+/* 見出し */
+h2 {
+  background-color: #66C9DC;
+}
+
+div.but_div2 {
+  background-color: #66C9DC;
+}
+
+
+
+
+
+
+
+
+
+
+

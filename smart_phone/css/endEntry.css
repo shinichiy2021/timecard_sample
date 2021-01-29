@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f8ff;
+}
+
+/*Aタグ共通*/
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*ロゴ*/
+img {
+    text-align: left;
+    width: 15%;
+}
+
+/*datetime*/
+table.Datetime {
+    width: 90%;
+    border-style: solid;
+    margin-left: 5%;
+}
+
+/*仮登録*/
+tr#kari {
+    font-size: 8vw;
+}
+
+
+/*内容*/
+tr#content {
+    font-size: 3.8vw;
+}
+
+/*内容0*/
+tr#content0 {
+    font-size: 2em;
+}
+
+p {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#btn {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#menu {
+    width: 70%;
+}

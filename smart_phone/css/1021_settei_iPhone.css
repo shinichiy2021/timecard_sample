@@ -1,0 +1,222 @@
+.view1021 section {
+    -webkit-appearance: none;
+}
+
+.view1021 span {
+    -webkit-appearance: none;
+    font-size: 3.2em;
+    margin: 0px 42px 0px 20px;
+}
+
+.view1021 .tbl th.staffNo_th {
+    width: 98%;
+    vertical-align: middle;
+    font-size: 4.5vw;
+    color: #ffffff;
+    background-color: #fa8072;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 tr.staff td.staffNo_td {
+    width: 98%;
+    vertical-align: middle;
+    font-size: 5.5vw;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 1vw 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 .tbl th.groupName_th,
+.view1021 .tbl th.staffSelect_th {
+    width: 48%;
+    vertical-align: middle;
+    font-size: 4.5vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 .tbl th.workPtan_th {
+    width: 48%;
+    vertical-align: middle;
+    font-size: 4.5vw;
+    color: #ffffff;
+    background-color: #66C9DC;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 .tbl th.push {
+    background-color: #fa8072;
+    width: 98%;
+}
+
+.view1021 .tbl th.compnyIn_th {
+    width: 98%;
+    vertical-align: middle;
+    font-size: 4.5vw;
+    color: #ffffff;
+    background-color: #FFA500;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 .tbl th.icon {
+    width: 98%;
+    vertical-align: middle;
+    font-size: 4.5vw;
+    color: #ffffff;
+    background-color: #66C9DC;
+    margin: 0 1%;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.view1021 .tbl td {
+    width: 46%;
+    font-size: 1.25em;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 2%;
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0.25em 0;
+}
+
+.view1021 .tbl td.hr {
+    width: 98%;
+    font-size: 0;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 1%;
+    border-radius: 0;
+    padding: 0;
+}
+
+.view1021 .tbl td.compnyIn_td {
+    width: 48%;
+    border-radius: 0 0 1vw 1vw;
+}
+
+.view1021 .tbl td {
+    width: 48%;
+    font-size: 5.5vw;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 1%;
+    border-radius: 0 0 1vw 1vw;
+    padding: 1vw 0;
+}
+
+.view1021 .tbl td.staffNo_td,
+.view1021 .tbl td.staffSelect_td,
+.view1021 .tbl td.groupName_td {
+    width: 48%;
+}
+
+.view1021 .tbl .push td.workPtan_td {
+    width: 98%;
+    border-radius: 0;
+}
+
+.view1021 .tbl td.line {
+    width: 96%;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.view1021 .kubun,
+.view1021 .kinmuPattern,
+.view1021 .push,
+.view1021 .nyusha,
+.view1021 .icon {
+    margin-top: 4vw;
+}
+
+.view1021 td#holiday {
+    width: 98%;
+}
+
+.view1021 #email {
+    width: 98%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.view1021 #chatIcon {
+    width: 98%;
+}
+
+.view1021 #nowIcon {
+    width: 16%;
+    margin: 0 42%;
+    border-radius: 50%;
+    padding: 1vw 0;
+}
+
+.view1021 .pString {
+    font-size: 1em;
+    float: left;
+    margin-left: 5%;
+}
+
+.view1021 #entry {
+    margin-bottom: 20px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.view1021 .iconTable {
+    text-align: center;
+}
+
+.view1021 .iconList {
+    width: 16%;
+    background-color: #ffffff;
+}
+
+.view1021 #setteiEdit {
+    height: 60px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.view1021 .mainTitle {
+    background-color: #FFCC00;
+}
+
+.view1021 #logout {
+    width: 50%;
+    height: 5vh;
+    font-size: 4.5vw;
+    margin: 0 25%;
+    -webkit-appearance: none;
+    background: #FFCC00;
+    border-style: none;
+    border-radius: 1vw;
+    opacity: 1;
+    color: gray;
+    font-weight:bold;
+    text-align: center;
+}
+
+.view1021 #logout img {
+    width:10vw;
+    padding: 0vw 0vw 2vw 3vw;
+}

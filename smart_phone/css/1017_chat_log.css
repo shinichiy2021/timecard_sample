@@ -1,0 +1,537 @@
+.view1017 .info-content {
+    background-color: #66C9DC;
+}
+
+.view1017 #detail {
+    width: 20%;
+    margin-top: 5px;
+    float: right;
+}
+
+.view1017 #close {
+    font-size: 1em;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 25%;
+}
+
+.view1017 #infomation {
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
+
+.view1017 #info-in {
+    background-color: white;
+    height: 76vh;
+    width: 100%;
+}
+
+.view1017 #mycanvas {
+    max-width: 100%;
+}
+
+.view1017 #loadText {
+    margin-top: -40%;
+    font-size: 6vw;
+}
+
+.view1017 input#send {
+    width: 20%;
+    font-size: 5vw;
+    height: 5vh;
+    background-color: white;
+    padding: 0px;
+    margin: 2% 0 0 73%;
+    line-height: 1em;
+    position: absolute;
+    border: outset;
+}
+
+.view1017 input#cancel {
+    width: 25%;
+    font-size: 3.5vw;
+    height: 5vh;
+    background-color: white;
+    padding: 0px;
+    margin: 2% 0 0 5%;
+    line-height: 1em;
+    position: absolute;
+    border: outset;
+}
+
+.view1017 #closeTop {
+    width: 10%;
+    font-size: 10.5vw;
+    height: 6vh;
+    color: white;
+    padding: 0;
+    line-height: 4vh;
+}
+
+.view1017 #infomation {
+    color: white;
+    margin: 1vh 0 1vh 11%;
+    font-size: 6.5vw;
+    width: 75%;
+}
+
+.view1017 input[type="button"] {
+    border: 0;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+    opacity: 1;
+    background: none;
+}
+
+.view1017 div.space {
+    height: 20px;
+    background-color: #D5D8DC;
+}
+
+.view1017 table.Datetime {
+    width: 100%;
+}
+
+.view1017 th#time {
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 7.2em;
+    padding-right: 2%;
+}
+
+.view1017 textarea#text {
+    background-color: #FFFFFF;
+    width: 67%;
+    font-size: 5.5vw;
+    margin: 2vw 15vw;
+    padding: 2vw 0 2vw 2vw;
+    overflow-y: scroll;
+    height: 6.5vw;
+    line-height: 7.5vw;
+    border-radius: 1vw;
+    color: black;
+}
+
+.view1017 .textarea {
+    width: 80%;
+}
+
+.view1017 #entry {
+    width: 12%;
+    margin: 6vw 1vw;
+    /* display: none; */
+    font-size: 4vw;
+    text-align: center;
+    line-height: 8vw;
+    height: 8vw;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.view1017 th#day {
+    width: 55%;
+    font-size: 4.4em;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 3%;
+}
+
+.view1017 div#btn {
+    margin-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #FFCC00;
+    float: left;
+    width: 100%;
+}
+
+.view1017 img#camera {
+    width: 10%;
+    margin-left: 1%;
+}
+
+.view1017 #photo {
+    display: none;
+    max-width: 100%;
+}
+
+.view1017 div#li {
+    padding: 16vw 3% 5vw 3%;
+}
+
+.view1017 form.chat {
+    z-index: 1;
+    height: 90vh;
+    overflow-y: scroll;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.view1017 th.icontd {
+    font-size: 2em;
+    width: 1%;
+}
+
+.view1017 .fontcenter {
+    text-align: center;
+    background: #8A939B;
+    padding: 2vw;
+    border-radius: 3vw;
+    font-size: 4vw;
+    color: white;
+    margin-bottom: 4vw;
+    word-wrap: break-word;
+}
+
+.view1017 section.chatTime {
+    text-align: center;
+    font-size: 3.5vw;
+    color: gray;
+}
+
+.view1017 .leftImg {
+    position: relative;
+    font-size: 4vw;
+    max-width: 50vw;
+    width: initial;
+    margin: 1vw 0vw 2vw 0;
+}
+
+.view1017 .rightImg {
+    position: relative;
+    float: right;
+    font-size: 4vw;
+    max-width: 50vw;
+    width: initial;
+}
+
+.view1017 section.name {
+    font-size: 3.5vw;
+    width: 80vw;
+    padding: 2vw 2vw;
+    color: gray;
+}
+
+.view1017 section.left {
+    width: 100%;
+    float: left;
+    margin-bottom: 3vw;
+}
+
+.view1017 section.left section.icontd {
+    width: 10vw;
+    float: left;
+    word-wrap: break-word;
+    clear: both;
+}
+
+.view1017 section.chatTimeLeft {
+    font-size: 3.5vw;
+    color: gray;
+}
+
+.view1017 .fontleft {
+    position: relative;
+    background: white;
+    border-radius: 2vw;
+    max-width: 80vw;
+    font-size: 4vw;
+    word-wrap: break-word;
+    margin: 1vw 0vw 2vw 0;
+    padding: 2vw 3vw;
+    width: initial;
+}
+
+/* .view1017 .fontleft:after,
+.view1017 .fontleft:before {
+    right: 100%;
+    top: 15%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.view1017 .fontleft:after {
+    border-right-color: white;
+    border-width: 9px;
+    margin-top: 4px;
+    margin-right: 0px;
+} */
+
+.view1017 section.right {
+    margin-bottom: 2vw;
+}
+
+.view1017 section.right section.icontd {
+    width: 15%;
+    float: right;
+}
+
+.view1017 section.chatTimeRight {
+    text-align: right;
+    font-size: 3.5vw;
+    color: gray;
+}
+
+.view1017 .fontright {
+    text-align: left;
+    position: relative;
+    background: #00BCD4;
+    margin: 0 2vw 0vw 0vw;
+    padding: 1vw 3vw;
+    border-radius: 2vw;
+    float: right;
+    font-size: 4vw;
+    max-width: 80vw;
+    word-wrap: break-word;
+    width: initial;
+}
+
+/* .view1017 .fontright:after,
+.view1017 .fontright:before {
+    left: 100%;
+    top: 15%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.view1017 .fontright:after {
+    border-color: rgba(133, 226, 73, 0);
+    border-left-color: #00BCD4;
+    border-width: 9px;
+    margin-top: 2px;
+    margin-left: -1px;
+} */
+
+.view1017 .bottom {
+    width: 100%;
+    /* 横の幅を100% */
+    height: 120px;
+    /* 縦の幅を120px */
+    position: absolute;
+    /* 絶対位置指定することを定義 */
+    bottom: 0px;
+    /* 絶対位置指定(左0px,下0px) */
+    padding: 10px 0;
+    /* 上下に余白を取る */
+}
+
+.view1017 .toptd1 {
+    width: 15%;
+    border: none;
+}
+
+.view1017 .toptd2 {
+    width: 15%;
+    font-size: 2.5em;
+    text-align: center;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.view1017 .toptd3 {
+    width: 70%;
+    font-size: 2.5em;
+    text-align: center;
+    border: none;
+    background-color: #66cdaa;
+    color: #ffffff;
+}
+
+.view1017 table.kado {
+    width: 95%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-left: 5%;
+    border-radius: 10px;
+    /* CSS3 */
+    -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+    /* Firefox用 */
+    behavior: url(../js/PIE.htc);
+    /* IE用 */
+}
+
+.view1017 .todocolor {
+    text-align: center;
+    background-color: #eeeaec;
+    color: #a4c1d7;
+    font-size: 3.2em;
+}
+
+.view1017 .todotext {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    width: 100%;
+    font-size: 2.5em;
+}
+
+.view1017 .todotdd {
+    font-size: 3.5em;
+}
+
+.view1017 .time {
+    height: 305px;
+    overflow: auto;
+}
+
+.view1017 input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.view1017 div.btndiv {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1017 table.btntbl {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1017 th.botth {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1017 input.botbtn {
+    width: 80%;
+    height: 140px;
+    font-size: 4.5em;
+    background-color: #ffffff;
+}
+
+.view1017 .footer {
+    background-color: #D3D3D3;
+    height: 10vh;
+    position:fixed;
+    bottom:0;
+}
+
+.view1017 .chatImage {
+    padding: 0;
+    border-radius: 3vw;
+}
+
+.view1017 .responsive-img {
+    padding: 0;
+    border-radius: 2vw;
+}
+
+.view1017 .icontd .responsive-img {
+    border-radius: 7vw;
+}
+
+.view1017 h2 {
+    margin-left: 4vw;
+}
+
+.view1017 div.but_div2 {
+    text-align: center;
+    width: 19vh;
+    float: left;
+    margin-left: 1%;
+}
+
+.view1017 input#back[type="image"] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 1vw 1.5%;
+    float: left;
+}
+
+.view1017 div.mainTitle {
+    background-color: #FFCC00;
+}
+
+.view1017 .noRead {
+    text-align: right;
+    font-size: 3.5vw;
+    color: gray;
+    margin: 1vw 0;
+}
+
+.view1017 #camera {
+    float: left;
+    font-size: 11vw;
+    margin: 4vw 2vw;
+    color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.view1017 #modal1 {
+    width: 100%;
+    height: 90vh;
+    max-height: 100%;
+    border-radius: 0;
+    margin: 5vh 0;
+}
+
+.view1017 #info-in {
+    height: 82vh;
+}
+
+.view1017 #rotate {
+    float: left;
+    width: 15vw;
+    height: 10vw;
+    background-color: #ffffff;
+}
+
+.view1017 div#loadArea {
+    position: absolute;
+    z-index: 999;
+    opacity: 0.5;
+    height: 10000vh;
+}
+
+.view1017 img#loadAnime {
+    margin: 60% 0 0 38%;
+    z-index: 1000;
+    width: 25%;
+}
+
+.view1017 .modal .modal-footer {
+    height: 16vw;
+}
+
+.view1017 #cancel {
+    padding: 0;
+    margin: 4vw 2vw;
+}
+
+/* .view1017 #page-top {
+    position: fixed;
+    bottom: 25vw;
+    z-index: 100;
+    left: 82vw;
+    font-size: 11vw;
+    color: black;
+    opacity: 0.7;
+    background-color: white;
+    width: 16vw;
+    text-align: center;
+    border-radius: 3vw;
+} */

@@ -1,0 +1,60 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!--  -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>利用可能期間</title>
+    <meta charset="UTF-8">
+    <!-- スマホ画面メタタグ -->
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <link href="../../common/css/materialize.css" rel="stylesheet">
+    <!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+    <link href="../../common/iconfont/material-icons.css" rel="stylesheet">
+    <!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+    <link href="../css/exception.css" rel="stylesheet" type="text/css">
+    <!-- JavaScriptファイルリンク -->
+    <script src="../../common/js/jquery.js"></script>
+    <script src="../../common/js/materialize.js"></script>
+    <script src="../../common/js/Class/classDatabase.js"></script>
+    <!-- <script src="../../common/js/Class/classLogin.js"></script> -->
+    <script src="../../common/js/Class/classMaster.js"></script>
+    <script src="../../common/js/Class/getParameter.js"></script>
+    <script src="../js/exception.js"></script>
+</head>
+
+<body>
+    <!-- ローディングのレイアウト -->
+    <div id="loader-bg"></div>
+    <!-- 全体大枠 -->
+    <form id="next" method="get" action="">
+        <div class="all">
+            <div>
+                <!-- ロゴ -->
+                <img src="../../common/img/normal_logo.png">
+            </div>
+            <!-- 見出し -->
+            <table class="Datetime">
+                <tr id="kari">
+                    <!-- 仮登録完了 -->
+                    <!-- <th>アプリの利用可能期間が終了しています。</th> -->
+                </tr>
+                <tr id="content">
+                    <!-- 内容 -->
+                    <th>
+                        <!-- 退職者またはアプリの無料利用期間を終了したため閲覧できなくなっています。 -->
+                    </th>
+                </tr>
+            </table>
+            <h2></h2>
+            <input type="button" id="login" value="ログイン画面へ">
+            <input type="button" id="menu" value="メニュー画面へ">
+        </div>
+    </form>
+</body>
+
+</html>

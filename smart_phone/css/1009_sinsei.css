@@ -1,0 +1,618 @@
+.view1009 .mainTitle {
+    background-color: #5589ff;
+}
+
+.view1009 a.btn {
+    height: 15vw;
+    font-size: 6.5vw;
+    border-radius: 3vw;
+    margin: 2.25vw 0;
+    -webkit-appearance: none;
+    background: none;
+    border-radius: 1vw;
+    opacity: 1;
+    background: white;
+    color: black;
+    width: 100%;
+    line-height: 15vw;
+}
+
+.view1009 .but_div2 section {
+    margin-top: 5vw;
+}
+
+.view1009 .blue.lighten-2 {
+    background-color: #5589ff !important;
+}
+
+.view1009 #requestTab p {
+    float: left;
+    width: 76%;
+}
+
+.view1009 #appliedTab p {
+    float: left;
+    width: 76%;
+}
+
+.view1009 #otherAppliedTab p {
+    float: left;
+    width: 76%;
+}
+
+.view1009 .sideB {
+    width: 10%;
+}
+
+.view1009 li span {
+    color: gray;
+    display: block;
+    font-size: 3.5vw;
+    padding: 3vw 3vw;
+    line-height: 6.5vw;
+    border-top: 0.2vw solid;
+    font-weight: bold;
+}
+
+.view1009 .badge.badgeList {
+    font-size: 7.5vw;
+    position: absolute;
+    left: 30%;
+    color: red;
+}
+
+.view1009 #modal-bg {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 3;
+    opacity: 0.5;
+}
+
+.view1009 #modal-content {
+    width: 90%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    font-size: 8vw;
+    margin: 20% 5% 0 5%;
+    top: 0;
+    left: 0;
+}
+
+.view1009 .info-content {
+    border: 2px solid #aaa;
+    background-color: #66C9DC;
+    border-radius: 30px;
+    height: 50%;
+}
+
+.view1009 #detail {
+    width: 20%;
+    float: right;
+    border-radius: 10px;
+}
+
+.view1009 #close {
+    font-size: 5vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 35%;
+}
+
+.view1009 #closeTop {
+    width: 10%;
+    margin-top: 2%;
+    font-size: 5vw;
+    height: 30px;
+    line-height: 5%;
+}
+
+.view1009 #infomation {
+    color: white;
+    margin: 2% 0 0 5%;
+    font-size: 5vw;
+    width: 80%;
+}
+
+.view1009 #info-in {
+    background-color: linen;
+    height: 70%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.view1009 .send {
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+.view1009 .titleButton {
+    width: 100%;
+    font-size: 5vw;
+    border: none;
+    background-color: linen;
+}
+
+.view1009 #info1 {
+    margin: 10% 0 2% 0;
+}
+
+.view1009 #info2 {
+    margin: 5% 0 5% 0;
+}
+
+.view1009 #info3 {
+    margin: 2% 0 10% 0;
+}
+
+.view1009 .edBut {
+    width: 35%;
+    margin-left: 60%;
+    border-width: 1vw;
+    border-radius: 3vw;
+    border-style: outset;
+    margin-bottom: 2.5vw;
+}
+
+.view1009 .tododiv {
+    width: 78%;
+}
+
+.view1009
+
+/*↓↓↓自分のやること↓↓↓*/
+.input {
+    border-radius: 2vw;
+    margin-bottom: 3vw;
+}
+
+.view1009 #newText {
+    width: 84%;
+    font-size: 5.5vw;
+    height: 12vw;
+    padding: 1vw 5vw;
+}
+
+.view1009 #newTodoIcon {
+    color: rgb(53, 65, 80);
+    font-size: 11vw;
+    width: auto;
+}
+
+.view1009 .list tr {
+    margin: 1vw 0;
+    background: white;
+    border-radius: 2vw;
+}
+
+.view1009 th.check {
+    width: 16%;
+    padding: 2vw 4%;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1009 input[type="checkbox"] {
+    height: 11vw;
+}
+
+.view1009 .delButton {
+    width: 13%;
+    margin: 0 0 0 3%;
+}
+
+.view1009 .delButton input {
+    height: 12vw;
+    font-weight: bold;
+    border: 0.5vw gray solid;
+}
+
+.view1009 .noList {
+    text-align: center;
+    padding: 50% 0 20% 0;
+}
+
+.view1009 h1 {
+    margin-left: 2%;
+}
+
+.view1009 .event {
+    background-color: #ffffff;
+    border: solid #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    margin: 3%;
+    width: 93%;
+}
+
+.view1009 .status {
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    border-width: 1vw;
+    border-radius: 3vw;
+    border-style: outset;
+}
+
+.view1009 .myStatus {
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    border-style: outset;
+    border-width: 1vw;
+    border-radius: 3vw;
+}
+
+.view1009 .todoListTitle {
+    width: 30%;
+    margin: 3% 0 0 30%;
+    float: left;
+    font-size: 7.5vw;
+}
+
+.view1009 .accordion input[type="checkbox"] {
+    display: none;
+}
+
+.view1009 .accordion .accordionIn {
+    overflow: hidden;
+    height: 0;
+    text-decoration: none;
+    -webkit-transition: height .5s ease-out;
+    transition: height .5s ease-out;
+    border-radius: 5vw;
+}
+
+.view1009 .accordion input[type="checkbox"]:checked+.accordionIn {
+    height: 40vw;
+    overflow-y: scroll;
+}
+
+.view1009 .todo {
+    width: 80%;
+    margin: 0 10% 5vw 10%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+}
+
+.view1009 .label {
+    margin-left: 10%;
+    width: 25%;
+    font-weight: bold;
+}
+
+.view1009 .label1 {
+    margin-left: 10%;
+    width: 40%;
+    font-weight: bold;
+}
+
+.view1009 .label2 {
+    width: 50%;
+    font-weight: bold;
+}
+
+.view1009 .staffName {
+    width: 40%;
+    font-weight: bold;
+}
+
+.view1009 .workerName {
+    width: 55%;
+    font-weight: bold;
+}
+
+.view1009 .hiduke {
+    width: 65%;
+}
+
+.view1009 .edBut {
+    margin: 0 5% 0 0;
+    width: 7%;
+    float: right;
+}
+
+.view1009 .brows {
+    margin: 0 5%;
+    width: 30%;
+    float: right;
+}
+
+.view1009 .kurasikuMiru {
+    margin: 2.5vw 0;
+}
+
+.view1009 .icon {
+    position: relative;
+    border-radius: 26px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#3e3e3e));
+    background: -webkit-linear-gradient(top, #4a4a4a, #3e3e3e);
+    background: linear-gradient(to bottom, #4a4a4a, #3e3e3e);
+    background: gradient(linear, center top, center bottom, from(#4a4a4a), to(#3e3e3e));
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1009 .icon .badgeWait {
+    left: 84vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.view1009 .icon .badgeCancel {
+    left: 84vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.view1009 .request {
+    font-size: 6.5vw;
+    margin-top: 2.5vw;
+}
+
+.view1009 input#switchBtn {
+    height: 8vh;
+    font-size: 1.3em;
+}
+
+.view1009 input[type="button"]#bfComp,
+.view1009 input[type="button"]#complete,
+.view1009 input[type="button"]#all_bfComp,
+.view1009 input[type="button"]#all_complete,
+.view1009 input[type="button"]#noStart,
+.view1009 input[type="button"]#progress,
+.view1009 input[type="button"]#reserve,
+.view1009 input[type="button"]#wait,
+.view1009 input[type="button"]#finish {
+    background-image: url(../img/todo_button.png);
+    background-size: 65%;
+    background-position: 50% 50%;
+    font-size: 6.5vw;
+}
+
+.view1009 input.headbut {
+    width: 33.3%;
+    height: 15vw;
+    color: black;
+    border: none;
+    margin: 0;
+    border-radius: 5vw 5vw 0 0;
+    font-size: 3.5vw;
+    background: darkgray;
+    line-height: 2;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+.view1009 button.headbut {
+    width: 33.3%;
+    height: 15vw;
+    color: black;
+    border: none;
+    margin: 0;
+    border-radius: 5vw 5vw 0 0;
+    font-size: 3.5vw;
+    background: darkgray;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+.view1009 a {
+    color: #000000;
+}
+
+.view1009 div.space {
+    height: 20px;
+}
+
+.view1009 th#time {
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35vw;
+    padding-right: 2%;
+}
+
+.view1009 th#day {
+    width: 55%;
+    font-size: 22vw;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 3%;
+}
+
+.view1009 div.space {
+    height: 40px;
+}
+
+.view1009 table.infotbl {
+    background-color: #ffffff;
+    text-align: left;
+    -webkit-appearance: none;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+.view1009 th.title {
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1009 th.title h1 {
+    font-size: 10vw;
+}
+
+.view1009 td.info {
+    color: #696969;
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1009 td.info p {
+    font-size: 7.5vw;
+}
+
+.view1009 div.btndiv {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1009 table.btntbl {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1009 th.botth {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1009 input.botbtn {
+    width: 80%;
+    height: 140px;
+    font-size: 22vw;
+    background-color: #ffffff;
+}
+
+.view1009 #list tr {
+    margin: 0.5vw 0;
+    background: white;
+    border-radius: 1vw;
+    height: auto;
+}
+
+.view1009 #list tr.todokede-wait {
+    opacity: 1;
+    color:black;
+}
+
+.view1009 #compList tr.todokede-sumi {
+    opacity: 0.75;
+    color:gray;
+}
+
+.view1009 #compList tr .line-through {
+    text-decoration:line-through;
+}
+
+.view1009 td.mIcon {
+    width: 15%;
+    padding: 3vw 2vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1009 .refineIcon {
+    width: 15%;
+    margin: -2vw 5vw 0vw 0vw;
+}
+
+.view1009 .mikanryo {
+    width: 85%;
+    height: 16vw;
+}
+
+.view1009 .listData {
+    font-size: 4vw;
+    width: 86%;
+    height: auto;
+    line-height: 9vw;
+    vertical-align: middle;
+    border-radius: 0 2.5vw 2.5vw 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.view1009 .listName {
+    font-size: 4.5vw;
+    width: 83%;
+    height: auto;
+    line-height: 9vw;
+    vertical-align: middle;
+    border-radius: 0 2.5vw 2.5vw 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.view1009 .todokedeName {
+    font-size: 4vw;
+    width: 17%;
+    height: auto;
+    line-height: 9vw;
+    vertical-align: middle;
+    border-radius: 0 2.5vw 2.5vw 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.view1009 .Kigen {
+    color: blue;
+    font-size: 4vw;
+    line-height: normal;
+    height: 5vw;
+}
+
+.view1009 .kigenGire {
+    color: red;
+    font-size: 4vw;
+    line-height: normal;
+    height: 5vw;
+}
+
+.view1009 input[type="button"] {
+    height: 10vh;
+    font-size: 4.5vw;
+    border-radius: 3vw;
+    margin: 2.25vw 0;
+    -webkit-appearance: none;
+    background: #5589ff;
+    border-style: none;
+    border-radius: 1vw;
+    opacity: 1;
+    color: white;
+}
+
+.view1009 input#switchBtn {
+    height: 11vw;
+    font-size: 5vw;
+    width: 68%;
+    margin: 4vw 16%;
+}
+
+.view1009 .side-nav li>a {
+    font-size: 5.5vw;
+    color: black;
+}
+
+.view1009 .sinseiYear {
+    background-color: linen;
+}
+
+.view1009 h2 {
+    background-color: #5589ff;
+}
+
+.view1009 div.but_div2 {
+    background-color: #5589ff;
+}
+
+.view1009 div.all {
+    margin-bottom: 33vw;
+}
+
+.view1009 .side-nav {
+    padding: 11vw 0 0 0;
+}

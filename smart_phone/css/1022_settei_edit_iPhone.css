@@ -1,0 +1,212 @@
+.view1022 .mainTitle {
+    background-color: #FFCC00;
+}
+
+.view1022 .all-div {
+    margin: 5vw 5%;
+    width: 90%;
+}
+
+.view1022 .tbl tr {
+    margin: 2vw 0;
+}
+
+.view1022 .tbl th.notify {
+    vertical-align: middle;
+    font-size: 4.5vw;
+    border-radius: 0.5em 0.5em 0 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.view1022 .tbl td.notify {
+    font-size: 6.5vw;
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    position: static;
+}
+
+.view1022 .tbl td.notify select {
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    width: 100%;
+    text-align: center;
+    padding-left: 3vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+}
+
+.view1022 label.photo {
+    position: relative;
+    top: 4vw;
+    left: -19vw;
+}
+
+.view1022 #mail {
+    width: 84%;
+    vertical-align: middle;
+    font-size: 6.5vw;
+    margin-left: 2vw;
+    word-wrap: break-word;
+    float: left;
+    text-decoration: underline;
+}
+
+.view1022 #imgPass {
+    width: 10%;
+    padding: 1vw;
+    float: left;
+}
+
+.view1022 #mycanvas {
+    max-width: 100%;
+}
+
+.view1022 #passChange {
+    font-size: 6.5vw;
+    float: left;
+    margin-left: 2vw;
+    background: white;
+    width: 84%;
+    text-decoration: underline;
+}
+
+.view1022 #nowIcon {
+    width: 20%;
+    margin: 1vh 0 1vh 40%;
+    pointer-events: none;
+    border-radius: 50%;
+    border: 0.25vw gray solid;
+}
+
+.view1022 #camera {
+    width: 15%;
+    border: none;
+    color: black;
+    font-size: 7vw;
+    padding: 11vw 0 0 14vw;
+}
+
+.view1022 input#photo {
+    display: none;
+}
+
+.view1022 #imgComment {
+    text-align: right;
+}
+
+.view1022 .pString {
+    font-size: 4.5vw;
+    font-weight: normal;
+}
+
+.view1022 .iconTable {
+    width: 22%;
+    padding: 1.5vw;
+    border-radius: 50%;
+    margin: 1vw;
+}
+
+.view1022 .iconList {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 0.25vw gray solid;
+}
+
+.view1022 input[type="radio"] {
+    margin: 0 0 1em 0;
+    height: 2em;
+}
+
+.view1022 #setteiEdit {
+    height: 60px;
+    font-size: 5vw;
+    margin-top: 20px;
+}
+
+.view1022 .password {
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.view1022 .tbl td.push {
+    background: none;
+}
+
+.view1022 h2 {
+    background-color: #FFCC00;
+}
+
+.view1022 div.but_div2 {
+    background-color: #FFCC00;
+}
+
+.view1022 #modal-content {
+    width: 90%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    font-size: 6.5vw;
+    margin: 0 5%;
+    top: 10%;
+    left: 0;
+}
+
+.view1022 .info-content {
+    border: 2px solid #FFCC00;
+    background-color: #FFCC00;
+    text-align: center;
+    position: relative;
+}
+
+.view1022 #info-in {
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+}
+
+.view1022 #loadText {
+    margin-top: 20vw;
+}
+
+.view1022 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vh 0;
+    font-weight: bold;
+}
+
+.view1022 #modal-bg {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.view1022 #info-in .input {
+    width: 96%;
+    vertical-align: middle;
+    margin: 2vw 0;
+    padding: 0 0 0 2%;
+    font-size: 4vw;
+    border: none;
+    border-bottom: 0.25vw solid gray;
+    border-radius: 1vw;
+}
+
+.view1022 .appidforget {
+    margin-top: 5%;
+}
+
+.view1022 #lostLink {
+    font-size: 4.5vw;
+    margin: 5%;
+    text-decoration: underline;
+}

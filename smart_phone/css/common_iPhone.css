@@ -1,0 +1,447 @@
+/*----------------------------------------------
+/* loading CSS */
+/*---------------------------------------------*/
+.loader-wrap {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linen;
+}
+.spa-loader {
+    color: white;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+/*----------------------------------------------
+/* リセットCSS */
+/*---------------------------------------------*/
+html, body, header, footer, img, h1, h2, footer, article, section, ul, li, p, textarea, table, thead, tbody, tr, td, th, div, select, input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+}
+
+textarea.inputtext {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    resize: none;
+    height: 1.8em;
+}
+
+/*---------------------------------------------
+/* 表示領域全体大枠 */
+/*---------------------------------------------*/
+body {
+    background-color: linen;
+    padding-top: 0px;
+}
+
+div.all {
+    font-size: 5vw;
+    background-size: contain;
+    margin: 16vw 3% 8vw 3%;
+    width: 94%;
+    padding-top: 0px;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    height: 88vh;
+}
+
+/*@media screen and (-webkit-min-device-pixel-ratio: 0) {*/
+    /*_::-webkit-full-page-media, _:future, :root div.all {*/
+        /*padding-top: 0px;*/
+        /* iOS 10 以下の互換性を保つために20px */
+        /* iOS 11.2未満用 */
+        /* iOS 11.2以上用 */
+    /*}*/
+/*}*/
+
+header {
+    text-align: center;
+    float: left;
+    margin: 3vw 0 3vw 0;
+    padding-top: 0px;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+}
+
+/*@media screen and (-webkit-min-device-pixel-ratio: 0) {*/
+    /*_::-webkit-full-page-media, _:future, :root header {*/
+        /* iOS 10 以下の互換性を保つために20px */
+        /* iOS 11.2未満用 */
+        /* iOS 11.2以上用 */
+    /*}*/
+/*}*/
+
+/*----------------------------------------------
+/* ヘッダーの共通処理 */
+/*---------------------------------------------*/
+.headerDummy .but_div2 {
+    display: none;
+}
+
+.mainTitle {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 998;
+    padding-top: 0px;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    color: white;
+}
+
+#sideNav {
+    font-size: 10vw;
+    color: white;
+    display: inline-block;
+    padding: 1vw 0vw;
+    width: 15%;
+    text-align: center;
+    height: 8vw;
+    margin: 0vw 2vw 0 0vw;
+    float: right;
+}
+
+.but_div2 {
+    z-index: 5;
+}
+
+/* 見出し */
+h2 {
+    font-size: 5.5vw;
+    margin: 0;
+    text-align: center;
+    /* color: #ffffff; */
+    padding-top: 1vw;
+    padding: 2.5vw 0;
+    font-weight: bold;
+    font-weight: bold;
+    width: 40%;
+}
+
+div.but_div2 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    top : 0px;
+}
+
+/* 戻るボタン（←) */
+#back {
+    font-size: 15vw;
+    color: white;
+    display: inline-block;
+    /* position: absolute; */
+    line-height: 0.8;
+    width: 30%;
+    float: left;
+}
+
+/* 戻るボタン（←) */
+#logOut {
+    font-size: 11vw;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 1vw 3vw 0 1vw;
+}
+
+/* 削除 */
+p#delete {
+    font-size: 4vw;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 3vw 3vw 0 74vw;
+    padding: 0 0vw;
+    width: 16%;
+    text-align:center;
+}
+
+p#notification {
+    font-size: 5vw;
+    color: white;
+    display: inline-block;
+    padding: 1vw 0vw;
+    width: 18%;
+    text-align: center;
+    height: 8vw;
+    margin: 2vw 4vw 0 0vw;
+    float: right;
+}
+
+/*保存*/
+p#new {
+    font-size: 5vw;
+    color: white;
+    display: inline-block;
+    padding: 1vw 0vw;
+    width: 15%;
+    text-align: center;
+    height: 8vw;
+    margin: 2vw 0px 0 0vw;
+}
+
+p#regist {
+    font-size: 5vw;
+    color: white;
+    display: inline-block;
+    padding: 1vw 0vw;
+    width: 15%;
+    text-align: center;
+    height: 8vw;
+    margin: 2vw 0px 0 0vw;
+}
+
+p#update {
+    font-size: 5vw;
+    display: inline-block;
+    margin: 2vw 0px 0 0vw;
+    padding: 1vw 0vw;
+    width: 15%;
+    text-align: center;
+    height: 8vw;
+    color: white;
+    float: right;
+}
+
+p#delete {
+    font-size: 5vw;
+    color: white;
+    display: inline-block;
+    padding: 1vw 0vw;
+    width: 15%;
+    text-align: center;
+    height: 8vw;
+    margin: 2vw 0px 0 0vw;
+}
+
+p#logOut {
+    font-size: 4vw;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 3vw 3vw 0 1vw;
+    padding: 0 0vw;
+    width: 24%;
+}
+
+/* 追加ボタン */
+input#new[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 1vw 1.5%;
+    float: right;
+}
+
+/* 更新ボタン */
+input#update[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 1vw 1.5%;
+    float: right;
+}
+
+/* 登録ボタン */
+input#regist[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 1vw 1.5%;
+    float: right;
+}
+
+/* 削除ボタン */
+input#delete[type="image"] {
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 1vw 1.5%;
+    float: right;
+}
+
+/*チェックボックスの共通CSS*/
+/*通常画面用*/
+.ck1 {
+    width: 13%;
+}
+
+.ck1 div.check {
+    height: 13vw;
+    border-radius: 2vw;
+    background-color: #19283C;
+    -webkit-appearance: none;
+}
+
+.ck1 div.check input.et {
+    height: 8vw;
+    width: 12vw;
+    margin: 12.5%;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+}
+
+.ck1 div.check input.et:checked {
+    border-top: 2vw solid #19283C;
+    border-left: 3vw solid #FFFFFF;
+    border-bottom: 3vw solid #FFFFFF;
+    -webkit-transform: rotate(-45deg);
+}
+
+/*ポップアップ用*/
+.ck2 {
+    width: 15%;
+}
+
+.ck2 div.check {
+    height: 15vw;
+    border-radius: 3vw;
+    background-color: #19283C;
+    -webkit-appearance: none;
+}
+
+.ck2 div.check input.et {
+    height: 10vw;
+    width: 13vw;
+    margin: 12.5%;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+}
+
+.ck2 div.check input.et:checked {
+    border-top: 1vw solid #19283C;
+    border-left: 3vw solid #FFFFFF;
+    border-bottom: 3vw solid #FFFFFF;
+    -webkit-transform: rotate(-45deg);
+}
+
+/* 各ベンダープレフィックスが取れた標準版！！(http://caniuse.com/#search=placeholder-shown) */
+:placeholder-shown {
+    color: gray;
+}
+
+/* Google Chrome, Safari, Opera 15+, Android, iOS */
+::-webkit-input-placeholder {
+    color: gray;
+}
+
+/* Firefox 18- */
+:-moz-placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+/* IE 10+ */
+:-ms-input-placeholder {
+    color: gray;
+}
+
+footer {
+    background: black;
+    color: white;
+    /*height: 12vw;*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    margin: 0;
+    padding: 0;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+footer .navi {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .navi img {
+    width: 40%;
+    height: 10vw;
+    margin: 1vw 0;
+}
+
+footer .navi p {
+    width: 60%;
+    margin: 4vw 0;
+    font-size: 2.5vw;
+    text-align: center;
+}
+

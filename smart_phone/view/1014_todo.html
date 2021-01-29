@@ -1,0 +1,49 @@
+<!--===================================================================-->
+<!-- 更新履歴をここに記入してください。 -->
+<!-- 2017/08/03 yamazaki コメントのヘッダーを追加しました。 -->
+<!-- 2017/09/01 yamazaki アイコンの読み込みを修正しました -->
+<!--===================================================================-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>やることリスト</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <article>
+        <section data-role="view" class="view view1014">
+            <div class="header">
+                <div class="mainTitle">
+                    <i id="back" class="material-icons">keyboard_arrow_left</i>
+                    <h2>やることリスト</h2>
+                    <section id="iconArea">
+                        <p id="bookMark"></p>
+                        <p id="icon"></p>
+                    </section>
+                </div>
+            </div>
+            <div class="all">
+                <section class="dynamic-dom list" id="listTable"></section>
+            </div>
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class="info-content">
+                    <p id="infomation">
+                        <span>ステータス状態変更</span>
+                    </p>
+                </div>
+                <div id="info-in">
+                </div>
+                <div class="modal-footer">
+                    <input type="checkbox" id="chkInfo" name="chkInfo" value="1" checked="checked" />
+                    <label class="send" for="chkInfo">通知を送る</label>
+                    <a id="closeTop" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat ">キャンセル</a>
+                    <a id="send" href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">実行</a>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

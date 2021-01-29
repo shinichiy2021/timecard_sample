@@ -1,0 +1,178 @@
+.view1015 .mainTitle {
+    background-color: #66C9DC;
+}
+
+.view1015 .editArea {
+    font-size: 5vw;
+}
+
+.view1015 input[type="button"],
+.view1015 input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+.view1015 a {
+    color: #000000;
+}
+
+.view1015 div.space {
+    height: 20px;
+}
+
+.view1015 .ympicker {
+    font-size: 6.5vw;
+    line-height: 12vw;
+}
+
+.view1015 #ym1 {
+    font-size: 6.5vw;
+    width: 58%;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1015 #ym2 {
+    font-size: 6.5vw;
+    width: 58%;
+    float: left;
+    height: 9.5vw;
+    background: white;
+    padding: 0 0 0 3vw;
+    text-align: left;
+    -webkit-appearance: none;
+}
+
+.view1015 #msg {
+    color: gray;
+    width: 40%;
+    float: right;
+    font-size: 4vw;
+}
+
+.view1015 #editMsg {
+    font-size: 4vw;
+    color: red;
+    margin-bottom: 3vw;
+}
+
+.view1015 #memberCheck {
+    margin-bottom: 2vh;
+}
+
+.view1015 #iraiArea {
+    width: 15%;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.view1015 #irai {
+    padding: 3%;
+    font-size: 6.5vw;
+    color: black;
+    border-radius: 3vw;
+    font-weight: bold;
+}
+
+.view1015 #member {
+    width: 23%;
+    float: left;
+}
+
+.view1015 #member div {
+    float: left;
+    font-size: 6.5vw;
+}
+
+.view1015 #memberSelect {
+    width: 17%;
+    float: right;
+    border-style: outset;
+    border-width: 1vw;
+    border-radius: 3vw;
+}
+
+.view1015 #title {
+    background-color: #ffffff;
+    text-align: left;
+    -webkit-appearance: none;
+    margin: 0 0 6vw 0;
+    width: 97%;
+}
+
+.view1015 #meisai {
+    background-color: #ffffff;
+    text-align: left;
+    -webkit-appearance: none;
+    padding: 1.2vw 3vw;
+    margin-top: 2.5vw;
+    font-size: 6.5vw;
+    height: 50vw;
+}
+
+.view1015 label {
+    float: left;
+}
+
+.view1015 label input {
+    width: 30%;
+    height: 8vw;
+}
+
+.view1015 label p {
+    width: 70%;
+    font-size: 6.5vw;
+    line-height: 7.5vw;
+}
+
+.view1015 .onegai {
+    -webkit-appearance: none;
+    font-size: 6.5vw;
+    width: 50%;
+}
+
+.view1015 #fromName {
+    float: left;
+    font-size: 5vw;
+    padding-left: 30vw;
+}
+
+.view1015 section#memberArea {
+    -webkit-appearance: none;
+}
+
+.view1015 section#priorityArea {
+    -webkit-appearance: none;
+    margin: 3vw 5% 0 0;
+}
+
+.view1015 section#ym1Area {
+    -webkit-appearance: none;
+    margin: 3vw 5% 0 0;
+}
+
+.view1015 section#ym2Area {
+    -webkit-appearance: none;
+    margin: 3vw 5% 0 0;
+}
+
+.view1015 section#fromArea {
+    -webkit-appearance: none;
+    margin: 3vw 5% 0 0;
+}
+
+.view1015 h2 {
+    background-color: #66C9DC;
+}
+
+.view1015 h1 {
+    -webkit-appearance: none;
+    font-size: 4.5vw;
+    width: 36%;
+}
+
+.view1015 div.but_div2 {
+    background-color: #66C9DC;
+}

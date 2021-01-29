@@ -1,0 +1,76 @@
+.view10012 {
+    padding: 0 3%;
+}
+
+.view10012 h2 {
+    color: #000000a1;
+    font-size: 7vw;
+    width: 100%;
+}
+
+.view10012 header.login {
+    display: block;
+}
+
+.view10012 input.but {
+    margin: 2vw 0;
+}
+
+.view10012 input.but {
+    width: 100%;
+    font-size: 6.5vw;
+    height: 11vw;
+    background-color: white;
+    padding: 0px;
+    border: outset;
+    color: #fff;
+    background-color: #49a9d4;
+}
+
+.view10012 p.explain {
+    float: left;
+    font-size: 4.5vw;
+}
+
+.view10012 .hatena {
+    display: inline-block;
+    width: 8vw;
+    margin-top: 1vw;
+    float: right;
+}
+
+.view10012 span {
+    font-size: 3.5vw;
+    display: block;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 1vw;
+    margin: 1vw 0vw 4vw 0vw;
+}
+
+.view10012 #loginAccount {
+    width: 85%;
+    font-size: 5vw;
+    vertical-align: middle;
+    margin: 1vw 0;
+    padding-left: 2vw;
+    display: block;
+    float: left;
+    background: white;
+}
+
+.view10012 #newEmail {
+    width: 85%;
+    font-size: 5vw;
+    vertical-align: middle;
+    margin: 1vw 0;
+    padding-left: 2vw;
+    display: block;
+    float: left;
+    background: white;
+}
+
+.view10012 hr {
+    margin-bottom: 10vw;
+}

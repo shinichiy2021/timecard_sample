@@ -1,0 +1,544 @@
+.view1010 .mainTitle {
+    background-color: #5589ff;
+}
+
+.view1010 input[type="button"] {
+    border: 0;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+    opacity: 1;
+    background: none;
+}
+
+.view1010 input#send {
+    width: 20%;
+    font-size: 5vw;
+    height: 6vh;
+    background-color: white;
+    padding: 0px;
+    margin: 2vw 2vw;
+    border: outset;
+}
+
+.view1010 .info-content {
+    background-color: #5589ff;
+}
+
+.view1010 textarea#info3 {
+    height: 26vh;
+    width: 85%;
+    margin: 3vw 5%;
+    font-size: 5.5vw;
+    padding: 2vw;
+    border-width: 0.5vw;
+}
+
+.view1010 #detail {
+    width: 20%;
+    float: right;
+    border-radius: 10px;
+}
+
+.view1010 #close {
+    border-radius: 3vw;
+    width: 40%;
+    margin: 4vh 30%;
+}
+
+.view1010 #infomation {
+    color: white;
+    font-size: 6.5vw;
+    margin: 1vh 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.view1010 #info-in {
+    background-color: white;
+    height: 59vh;
+}
+
+.view1010 label.send {
+    padding: 1vw 0 8vw 8vw;
+    font-size: 5.5vw;
+    color: black;
+    border-radius: 3vw;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.view1010 .titleButton {
+    font-size: 6.5vw;
+    width: 90%;
+    word-wrap: break-word;
+    margin: 3vw 5%;
+    line-height: 7vh;
+    text-align: center;
+    border-width: 0.5vw;
+    border-radius: 1vw;
+}
+
+.view1010 .tododiv {
+    width: 78%;
+}
+
+.view1010 .memoLeft {
+    font-size: 4vw;
+    width: 50%;
+    margin-left: 4%;
+    color: gray;
+    text-align: center;
+    float: left;
+}
+
+.view1010 .memoRight {
+    font-size: 4vw;
+    width: 40%;
+    margin-left: 4%;
+    color: gray;
+    text-align: center;
+    float: right;
+}
+
+.view1010 .input {
+    background: white;
+    border-radius: 3vw;
+    margin-bottom: 4vh;
+}
+
+.view1010 #newText {
+    width: 84%;
+    font-size: 6.5vw;
+    height: 9vh;
+    border: 0;
+    border-radius: 3vw;
+    padding: 0 5vw;
+    background: none;
+}
+
+.view1010 #newTodo {
+    width: 13%;
+    height: 8vh;
+    font-weight: bold;
+    margin: 0 0 0 3%;
+    border: 1px gray solid;
+}
+
+.view1010 .list tr {
+    margin: 1vh 0;
+    background: white;
+    border-radius: 2vw;
+}
+
+.view1010 th.check {
+    width: 16%;
+    padding: 3vh 4%;
+    border-radius: 2vh 0 0 3vw;
+}
+
+
+
+.view1010 .listData {
+    font-size: 6.5vw;
+    width: 68%;
+    height: 12vh;
+    line-height: 12vh;
+    vertical-align: middle;
+    border-radius: 0 3vw 2vh 0;
+    text-align: left;
+}
+
+.view1010 .delButton input {
+    height: 8vh;
+    font-weight: bold;
+    border: 1px gray solid;
+    margin: 1vh 0;
+}
+
+.view1010 .noList {
+    text-align: center;
+    padding-top: 27vh;
+    font-size: 6.5vw;
+}
+
+.view1010 h1 {
+    font-size: 6.5vw;
+}
+
+.view1010 select#todokede {
+    width: 49%;
+    float: right;
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    margin: 1vh 2vw 0 2%;
+    padding-left: 3vw;
+    background-color: #ffffff;
+    border-width: 1vw;
+    border-style: outset;
+    border-radius: 3vw;
+}
+
+.view1010 .event {
+    padding: 0;
+}
+
+.view1010 .status {
+    width: 28%;
+    text-align: center;
+    border: solid;
+    border-style: outset;
+    border-width: 1vw;
+    border-radius: 3vw;
+}
+
+.view1010 .myStatus {
+    width: auto;
+    text-align: center;
+    border: solid;
+    color: red;
+    margin: 0 0 2vh 0;
+    padding: 0 2vw;
+    background-color: yellow;
+    font-size: 4.5vw;
+}
+
+.view1010 .todoListTitle {
+    width: 30%;
+    padding: 0.5vh 0;
+    float: right;
+    font-size: 6.5vw;
+    margin: 1vh 1vw 1vh 0;
+}
+
+.view1010 .accordion input[type="checkbox"] {
+    display: none;
+}
+
+.view1010 .todo {
+    width: 90%;
+    margin: 2vh 5%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    padding: 1vh 0;
+}
+
+.view1010 .label {
+    width: 44%;
+    background: #66C9DC;
+    color: white;
+    margin: 1vh 0;
+    padding: 0 3vw;
+    text-align: center;
+}
+
+.view1010 .label1 {
+    width: 44%;
+    background: #66C9DC;
+    color: white;
+    margin: 1vh 0;
+    padding: 0 3vw;
+    text-align: center;
+}
+
+.view1010 .label2 {
+    width: 50%;
+    font-weight: bold;
+}
+
+.view1010 p.labelName {
+    background-color: #66C9DC;
+    width: 35%;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    line-height: 8vw;
+    border-radius: 1vw;
+    margin: 1vw 0;
+}
+
+.view1010 .card-content section {
+    margin: 1vw 0;
+}
+
+.view1010 .staffName {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.view1010 .workStaffName {
+    width: 67%;
+    margin: 1vh 0 1vh 5%;
+}
+
+.view1010 .kanriName {
+    width: 61%;
+    margin: 0 0 0 3vw;
+    font-size: 5vw;
+    line-height: 2em;
+    border-bottom: 2px solid #66C9DC;
+}
+
+.view1010 .hiduke {
+    width: 61%;
+    margin: 2vw 0 1vw 3vw;
+    font-size: 5vw;
+    line-height: 9vw;
+    border-bottom: 2px solid #66C9DC;
+}
+
+.view1010 .startEndDate {
+    width: 61%;
+    margin: 1vw 0 1vw 3vw;
+    font-size: 5vw;
+    text-align: left;
+    border-bottom: 2px solid #66C9DC;
+    line-height: 8vw;
+}
+
+.view1010 .brows {
+    float: right;
+    font-size: 4vw;
+}
+
+.view1010 .kuwasikuMiru {
+    margin-top: 2vh;
+}
+
+.view1010 #torisageButton {
+    background-color: yellow;
+    color: green;
+}
+
+.view1010 .delButton {
+    font-size: 5.0vw;
+    width: 80%;
+    margin: 4vw 10%;
+    font-weight: bold;
+    border-radius: 1vw;
+    -webkit-appearance: none;
+    height: 11vw;
+    line-height: 11vw;
+}
+
+.view1010 #deleteButton {
+    background-color: red;
+    color: white;
+}
+
+.view1010 .icon {
+    position: relative;
+    border-radius: 26px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#3e3e3e));
+    background: -webkit-linear-gradient(top, #4a4a4a, #3e3e3e);
+    background: linear-gradient(to bottom, #4a4a4a, #3e3e3e);
+    background: gradient(linear, center top, center bottom, from(#4a4a4a), to(#3e3e3e));
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1010 .icon .badge {
+    position: absolute;
+    right: 0%;
+    width: 11%;
+    height: 10vh;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.view1010 .icon .badge .inner {
+    display: block;
+    position: relative;
+    margin: 1vw;
+    height: 8vh;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 8vh;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ee757b), to(#c80507));
+    background: -webkit-linear-gradient(top, #ee757b, #c80507);
+    background: linear-gradient(to bottom, #ee757b, #c80507);
+    background: gradient(linear, center top, center bottom, from(#ee757b), to(#c80507));
+}
+
+.view1010 .request {
+    font-size: 6.5vw;
+    margin-top: 2vh;
+}
+
+.view1010 input#switchBtn {
+    width: 84%;
+    margin: 2vh 0;
+    height: 8vh;
+    border: 1px solid;
+}
+
+.view1010 input[type="button"]#bfComp,
+.view1010 input[type="button"]#complete,
+.view1010 input[type="button"]#all_bfComp,
+.view1010 input[type="button"]#all_complete,
+.view1010 input[type="button"]#noStart,
+.view1010 input[type="button"]#progress,
+.view1010 input[type="button"]#reserve,
+.view1010 input[type="button"]#wait,
+.view1010 input[type="button"]#finish {
+    background-image: url(../img/todo_button.png);
+    background-size: 65%;
+    background-position: 50% 50%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+}
+
+.view1010 input.headbut {
+    width: 33.3%;
+    height: 12vh;
+    color: black;
+    border: none;
+    margin: 0;
+    border-radius: 3vw 3vw 0 0;
+    font-size: 4vw;
+    background: darkgray;
+    padding: 8vh 0;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.view1010 a {
+    color:white;
+}
+
+.view1010 div.space {
+    height: 20px;
+}
+
+.view1010 th#time {
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35vw;
+    padding-right: 2%;
+}
+
+.view1010 th#day {
+    width: 55%;
+    font-size: 20vw;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 3%;
+}
+
+.view1010 div.space {
+    height: 40px;
+}
+
+.view1010 table.infotbl {
+    background-color: #ffffff;
+    text-align: left;
+    -webkit-appearance: none;
+    padding: 10px 5px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+.view1010 th.title {
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1010 th.title h1 {
+    font-size: 8vw;
+}
+
+.view1010 td.info {
+    color: #696969;
+    padding-left: 1%;
+    background-color: #ffffff;
+}
+
+.view1010 td.info p {
+    font-size: 6.5vw;
+}
+
+.view1010 div.btndiv {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1010 table.btntbl {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1010 th.botth {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view1010 input.botbtn {
+    width: 80%;
+    height: 140px;
+    font-size: 22vw;
+    background-color: #ffffff;
+}
+
+.view1010 .header {
+    background-color: #5589ff;
+}
+
+.view1010 h2 {
+    background-color: #5589ff;
+}
+
+
+.view1010 .scrollHide1 {
+    margin-top: 13vw;
+}
+
+
+.view1010 p.title {
+    width: 50%;
+    color: white;
+    text-align: left;
+    padding-left: 4vw;
+    font-size: 5vw;
+}
+
+.view1010 #daterange {
+    width: 45%;
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    margin: 1vh 0 0 2%;
+    padding-left: 3vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    margin-bottom: 1vh;
+}
+
+.view1010 #dateOrder {
+    width: 48%;
+    -webkit-appearance: button;
+    font-size: 6.5vw;
+    margin: 1vh 0 0 2%;
+    padding-left: 3vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    margin-bottom: 1vh;
+}
+
+.view1010 .modal.modal-fixed-footer .modal-footer {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 9vw;
+    padding: 1vw 6vw;
+}
+
+a#rejectButton {
+    background-color: #f89da8;
+}
+
+a#kakuninButton {
+    background-color: #63bef7;
+}
